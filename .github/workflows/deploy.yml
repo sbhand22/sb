@@ -1,28 +1,32 @@
-name: Deploy Flutter Web App
+name: Build and Deploy Flutter Web to GitHub Pages
 
 on:
   push:
     branches:
-      - main  # Set this to the branch you want to deploy from
+      - main  # Adjust to the branch you use for deployment
+  workflow_dispatch:
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.24.2' # Use the version of Flutter you're using
+          flutter-version: '3.24.2'  # Use the version you're working with
+
+      - name: Enable Web
+        run: flutter config --enable-web
 
       - name: Install dependencies
         run: flutter pub get
 
       - name: Build Flutter web app
-        run: flutter build web
+        run: flutter build web --release --web-renderer auto
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
