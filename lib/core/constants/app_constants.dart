@@ -33,16 +33,16 @@ const String defaultImage = 'assets/images/default.jpg';
 const String darkMode = 'darkMode';
 
 // Connection Links
-const String linkedinLink = 'https://www.linkedin.com/in/yashashm';
+const String linkedinLink = 'https://www.linkedin.com/in/sai-bhandari/';
 
-const String emailId = 'yashashm.dev@gmail.com';
+const String emailId = 'sbhand22@asu.edu';
 
-const String instaLink = 'https://www.instagram.com/yashas_hm';
+const String instaLink = 'https://www.instagram.com/saibhandari1999';
 
-const String githubLink = 'https://github.com/yashas-hm';
+const String githubLink = 'https://github.com/sbhand22';
 
 const String resumeLink =
-    'https://drive.google.com/file/d/1f7BHZuDYwIPgf1Rj4fVXN_cOg3F6OAWd/view?usp=sharing';
+    'https://drive.google.com/file/d/168PZ2o5cNBLBxjlqw51vuqzHqZXe1Kwq/view?usp=sharing';
 
 // Skills
 // Front-End
