@@ -172,12 +172,12 @@ class _HomeNameState extends ConsumerState<HomeName> {
   List<TypewriterAnimatedText> buildWriterText() {
     final textList = [
       'Web Apps',
-      'Mobile Apps'
-          'Websites',
+      'Mobile Apps',
+      'Websites',
       'Databases',
       'APIs',
-      'Distributed Systems'
-          'ML Models'
+      'Distributed Systems',
+      'ML Models'
     ];
     final textWidgets = <TypewriterAnimatedText>[];
     for (var text in textList) {
