@@ -107428,8 +107428,8 @@ g=A.aT("Let's Connect and collaborate!",d,d,d,d,d,d,d,A.ar(d,d,B.aO,d,d,d,d,d,d,
 f=A.av(new A.j().n(20))
 s=A.a6(a,d,s).w
 return A.aR(d,A.eT(B.aI,A.a([n,new A.dS(B.m,d,d,m,d),new A.dS(B.m,d,d,A.aR(d,A.c_(A.a([k,i,j,g,f,A.cr(A.ev(A.a([new A.lw("assets/logo/github.svg","https://github.com/sbhand22",new A.M(new A.j().n(25),new A.j().n(25)),B.p8,d),new A.lw("assets/logo/linkedin.svg",u.m,new A.M(new A.j().n(25),new A.j().n(25)),d,d),new A.lw("assets/logo/instagram.svg",u.A,new A.M(new A.j().n(25),new A.j().n(25)),d,d)],h),B.t,B.iL,B.B,d),d,s.a.a/3)],h),B.aW,B.bW,B.B),B.j,d,d,new A.bB(d,d,d,l,d,d,d,B.F),d,d,e.w,d,new A.ai(o,o,o,o),d,d,d),d)],h),B.D,B.aB),B.D,d,d,new A.bB(d,d,d,p,d,d,d,B.F),d,q,d,d,d,d,d,r.a.a/1.2)},
-Lp(){var s,r,q,p,o,n,m,l,k,j=null,i=["Web Apps","Mobile AppsWebsites","Databases","APIs","Distributed SystemsML Models"],h=A.a([],t.Yp)
-for(s=$.ad.a,r=$.aa.a,q=$.ac.a,p=0;p<5;++p){o=i[p]
+Lp(){var s,r,q,p,o,n,m,l,k,j=null,i=["Web Apps","Mobile Apps","Websites","Databases","APIs","Distributed Systems","ML Models"],h=A.a([],t.Yp)
+for(s=$.ad.a,r=$.aa.a,q=$.ac.a,p=0;p<7;++p){o=i[p]
 n=$.ad.b
 if(n===$.ad)A.m(A.O(s))
 m=$.aa.b
