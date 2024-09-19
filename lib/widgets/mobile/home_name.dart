@@ -93,7 +93,7 @@ class _HomeNameState extends ConsumerState<HomeName> {
                   FittedBox(
                     fit: BoxFit.scaleDown,
                     child: Text(
-                      'Hello 👋🏻, I\'m\nYashas H Majmudar',
+                      'Hello 👋🏻, I\'m\nSai Bhandari',
                       style: TextStyle(
                         color: darkText,
                         fontSize: 24.sp,
@@ -104,7 +104,7 @@ class _HomeNameState extends ConsumerState<HomeName> {
                   Row(
                     children: [
                       AutoSizeText(
-                        'I can build ',
+                        'I\'ve built ',
                         minFontSize: 11,
                         stepGranularity: 0.1,
                         style: TextStyle(
@@ -123,7 +123,7 @@ class _HomeNameState extends ConsumerState<HomeName> {
                   ),
                   Gap(10.sp),
                   Text(
-                    'Let\'s Connect 🤝🏻',
+                    'Let\'s Connect and collaborate!',
                     style: TextStyle(
                       fontSize: 14.sp,
                       fontWeight: FontWeight.w400,
@@ -171,12 +171,13 @@ class _HomeNameState extends ConsumerState<HomeName> {
 
   List<TypewriterAnimatedText> buildWriterText() {
     final textList = [
-      'Mobile Apps',
       'Web Apps',
-      'Websites',
+      'Mobile Apps'
+          'Websites',
       'Databases',
       'APIs',
-      'ML Models'
+      'Distributed Systems'
+          'ML Models'
     ];
     final textWidgets = <TypewriterAnimatedText>[];
     for (var text in textList) {

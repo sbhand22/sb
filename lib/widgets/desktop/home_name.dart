@@ -31,7 +31,6 @@ class _HomeNameState extends ConsumerState<HomeName> {
 
   @override
   Widget build(BuildContext context) {
-
     final themeMode = ref.watch(themeModeProvider);
 
     SchedulerBinding.instance.addPostFrameCallback((timeStamp) {
@@ -102,7 +101,7 @@ class _HomeNameState extends ConsumerState<HomeName> {
                   FittedBox(
                     fit: BoxFit.scaleDown,
                     child: Text(
-                      'Hello 👋🏻, I\'m\nYashas H Majmudar',
+                      'Hello , I\'m\nSai Bhandari',
                       style: TextStyle(
                         color: darkText,
                         fontSize: 40.sp,
@@ -115,7 +114,7 @@ class _HomeNameState extends ConsumerState<HomeName> {
                       FittedBox(
                         fit: BoxFit.scaleDown,
                         child: Text(
-                          'I can build ',
+                          'I\'ve built ',
                           style: TextStyle(
                             fontSize: 28.sp,
                             fontWeight: FontWeight.w500,
@@ -141,7 +140,7 @@ class _HomeNameState extends ConsumerState<HomeName> {
                     child: FittedBox(
                       fit: BoxFit.scaleDown,
                       child: Text(
-                        'Let\'s Connect 🤝🏻',
+                        'Let\'s Connect and collaborate!',
                         style: TextStyle(
                           fontSize: 20.sp,
                           fontWeight: FontWeight.w400,
@@ -191,11 +190,12 @@ class _HomeNameState extends ConsumerState<HomeName> {
 
   List<TypewriterAnimatedText> buildWriterText() {
     final textList = [
-      'Mobile Apps',
       'Web Apps',
+      'Mobile Apps',
       'Websites',
       'Databases',
       'APIs',
+      'Distributed Systems',
       'ML Models'
     ];
     final textWidgets = <TypewriterAnimatedText>[];
