@@ -106879,19 +106879,19 @@ o=$.ah().n8(m,o,B.aH)
 o=A.xk(B.az,A.t8(A.aR(d,d,B.j,d,d,d,d,d,d,d,d,d,d,d),o))
 m=new A.j().n(25)
 l=A.bp(new A.j().n(13))
-k=A.y1(B.m,A.aT("Hello \ud83d\udc4b\ud83c\udffb, I'm\nYashas H Majmudar",d,d,d,d,d,d,d,A.ar(d,d,B.aO,d,d,d,d,d,d,d,d,new A.j().n(40),d,d,B.a6,d,d,!0,d,d,d,d,d,d,d,d),d,d,d),B.j,B.dj)
-j=A.y1(B.m,A.aT("I can build ",d,d,d,d,d,d,d,A.ar(d,d,B.aO,d,d,d,d,d,d,d,d,new A.j().n(28),d,d,B.H,d,d,!0,d,d,d,d,d,d,d,d),d,d,d),B.j,B.dj)
+k=A.y1(B.m,A.aT("Hello , I'm\nSai Bhandari",d,d,d,d,d,d,d,A.ar(d,d,B.aO,d,d,d,d,d,d,d,d,new A.j().n(40),d,d,B.a6,d,d,!0,d,d,d,d,d,d,d,d),d,d,d),B.j,B.dj)
+j=A.y1(B.m,A.aT("I've built ",d,d,d,d,d,d,d,A.ar(d,d,B.aO,d,d,d,d,d,d,d,d,new A.j().n(28),d,d,B.H,d,d,!0,d,d,d,d,d,d,d,d),d,d,d),B.j,B.dj)
 i=A.c2(0,1500,0)
 h=t.p
 i=A.ev(A.a([j,A.y1(B.m,A.aUB(e.Lp(),!0,i,!0),B.j,B.dj)],h),B.t,B.w,B.aL,d)
 j=A.av(new A.j().n(10))
 g=A.a6(a,d,s).w
-g=A.aR(B.c2,A.y1(B.m,A.aT("Let's Connect \ud83e\udd1d\ud83c\udffb",d,d,d,d,d,d,d,A.ar(d,d,B.aO,d,d,d,d,d,d,d,d,new A.j().n(20),d,d,B.y,d,d,!0,d,d,d,d,d,d,d,d),d,d,d),B.j,B.dj),B.j,d,d,d,d,d,d,d,d,d,d,g.a.a/5)
+g=A.aR(B.c2,A.y1(B.m,A.aT("Let's Connect and collaborate!",d,d,d,d,d,d,d,A.ar(d,d,B.aO,d,d,d,d,d,d,d,d,new A.j().n(20),d,d,B.y,d,d,!0,d,d,d,d,d,d,d,d),d,d,d),B.j,B.dj),B.j,d,d,d,d,d,d,d,d,d,d,g.a.a/5)
 f=A.av(new A.j().n(20))
 s=A.a6(a,d,s).w
 return A.aR(d,A.eT(B.aI,A.a([n,new A.dS(B.m,d,d,o,d),new A.dS(B.m,d,d,A.aR(d,A.c_(A.a([k,i,j,g,f,A.cr(A.ev(A.a([new A.lw("assets/logo/github.svg","https://github.com/sbhand22",new A.M(new A.j().n(40),new A.j().n(40)),B.p8,d),new A.lw("assets/logo/linkedin.svg",u.m,new A.M(new A.j().n(40),new A.j().n(40)),d,d),new A.lw("assets/logo/instagram.svg",u.A,new A.M(new A.j().n(40),new A.j().n(40)),d,d)],h),B.t,B.iL,B.B,d),d,s.a.a/6)],h),B.aW,B.bW,B.B),B.D,d,d,new A.bB(d,d,d,l,d,d,d,B.F),d,d,e.w,d,new A.ai(m,m,m,m),d,d,d),d)],h),B.D,B.aB),B.D,d,d,new A.bB(d,d,d,p,d,d,d,B.F),d,q,d,d,d,d,d,r.a.a/3.3)},
-Lp(){var s,r,q,p,o,n,m,l,k,j=null,i=["Mobile Apps","Web Apps","Websites","Databases","APIs","ML Models"],h=A.a([],t.Yp)
-for(s=$.ad.a,r=$.aa.a,q=$.ac.a,p=0;p<6;++p){o=i[p]
+Lp(){var s,r,q,p,o,n,m,l,k,j=null,i=["Web Apps","Mobile Apps","Websites","Databases","APIs","Distributed Systems","ML Models"],h=A.a([],t.Yp)
+for(s=$.ad.a,r=$.aa.a,q=$.ac.a,p=0;p<7;++p){o=i[p]
 n=$.ad.b
 if(n===$.ad)A.m(A.O(s))
 m=$.aa.b
@@ -107418,18 +107418,18 @@ m=$.ah().n8(o,m,B.aH)
 m=A.xk(B.az,A.t8(A.aR(d,d,B.j,d,d,d,d,d,d,d,d,d,d,d),m))
 o=new A.j().n(15)
 l=A.bp(new A.j().n(13))
-k=A.y1(B.m,A.aT("Hello \ud83d\udc4b\ud83c\udffb, I'm\nYashas H Majmudar",d,d,d,d,d,d,d,A.ar(d,d,B.aO,d,d,d,d,d,d,d,d,new A.j().n(24),d,d,B.a6,d,d,!0,d,d,d,d,d,d,d,d),d,d,d),B.j,B.dj)
-j=A.m4("I can build ",d,11,0.1,A.ar(d,d,B.aO,d,d,d,d,d,d,d,d,new A.j().n(16),d,d,B.H,d,d,!0,d,d,d,d,d,d,d,d),d)
+k=A.y1(B.m,A.aT("Hello \ud83d\udc4b\ud83c\udffb, I'm\nSai Bhandari",d,d,d,d,d,d,d,A.ar(d,d,B.aO,d,d,d,d,d,d,d,d,new A.j().n(24),d,d,B.a6,d,d,!0,d,d,d,d,d,d,d,d),d,d,d),B.j,B.dj)
+j=A.m4("I've built ",d,11,0.1,A.ar(d,d,B.aO,d,d,d,d,d,d,d,d,new A.j().n(16),d,d,B.H,d,d,!0,d,d,d,d,d,d,d,d),d)
 i=A.c2(0,1500,0)
 h=t.p
 i=A.ev(A.a([j,A.aUB(e.Lp(),!0,i,!0)],h),B.t,B.w,B.aL,d)
 j=A.av(new A.j().n(10))
-g=A.aT("Let's Connect \ud83e\udd1d\ud83c\udffb",d,d,d,d,d,d,d,A.ar(d,d,B.aO,d,d,d,d,d,d,d,d,new A.j().n(14),d,d,B.y,d,d,!0,d,d,d,d,d,d,d,d),d,d,d)
+g=A.aT("Let's Connect and collaborate!",d,d,d,d,d,d,d,A.ar(d,d,B.aO,d,d,d,d,d,d,d,d,new A.j().n(14),d,d,B.y,d,d,!0,d,d,d,d,d,d,d,d),d,d,d)
 f=A.av(new A.j().n(20))
 s=A.a6(a,d,s).w
 return A.aR(d,A.eT(B.aI,A.a([n,new A.dS(B.m,d,d,m,d),new A.dS(B.m,d,d,A.aR(d,A.c_(A.a([k,i,j,g,f,A.cr(A.ev(A.a([new A.lw("assets/logo/github.svg","https://github.com/sbhand22",new A.M(new A.j().n(25),new A.j().n(25)),B.p8,d),new A.lw("assets/logo/linkedin.svg",u.m,new A.M(new A.j().n(25),new A.j().n(25)),d,d),new A.lw("assets/logo/instagram.svg",u.A,new A.M(new A.j().n(25),new A.j().n(25)),d,d)],h),B.t,B.iL,B.B,d),d,s.a.a/3)],h),B.aW,B.bW,B.B),B.j,d,d,new A.bB(d,d,d,l,d,d,d,B.F),d,d,e.w,d,new A.ai(o,o,o,o),d,d,d),d)],h),B.D,B.aB),B.D,d,d,new A.bB(d,d,d,p,d,d,d,B.F),d,q,d,d,d,d,d,r.a.a/1.2)},
-Lp(){var s,r,q,p,o,n,m,l,k,j=null,i=["Mobile Apps","Web Apps","Websites","Databases","APIs","ML Models"],h=A.a([],t.Yp)
-for(s=$.ad.a,r=$.aa.a,q=$.ac.a,p=0;p<6;++p){o=i[p]
+Lp(){var s,r,q,p,o,n,m,l,k,j=null,i=["Web Apps","Mobile AppsWebsites","Databases","APIs","Distributed SystemsML Models"],h=A.a([],t.Yp)
+for(s=$.ad.a,r=$.aa.a,q=$.ac.a,p=0;p<5;++p){o=i[p]
 n=$.ad.b
 if(n===$.ad)A.m(A.O(s))
 m=$.aa.b
