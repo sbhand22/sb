@@ -51,7 +51,7 @@ const RESOURCES = {"assets/AssetManifest.json": "e8b5c958bbe311534cd24a4786d2242
 "assets/assets/logo/supabase.svg": "357c209cd8c6fa1c20761fe5486aac22",
 "assets/assets/logo/js.svg": "63f114e48bb1dcc492b10226d00e922b",
 "assets/assets/images/coding_dark.gif": "1a899f0bb6b6aa1670e31ebb6c6b7881",
-"assets/assets/images/avatar.svg": "ae53888f03f7462d43ae0cb39630c263",
+"assets/assets/images/avatar.svg": "9b7f9993ddb4d6ec4699072c16b42437",
 "assets/assets/images/coding_light.gif": "7a3b7303d2549d6997b01b0f63da923c",
 "assets/assets/images/default.jpg": "685e636ad5f077958c6235d73b55d3ae",
 "assets/assets/fonts/sg400.ttf": "7f510d38d1c785c851d73882c0ca58c0",
@@ -80,9 +80,9 @@ const RESOURCES = {"assets/AssetManifest.json": "e8b5c958bbe311534cd24a4786d2242
 "flutter.js": "f393d3c16b631f36852323de8e583132",
 "index.html": "3e7197e419a14eaa51de19ba9b0c1799",
 "/": "3e7197e419a14eaa51de19ba9b0c1799",
-"favicon.ico": "bcc8c818bbd8ac4376dd86534b278777",
+"favicon.ico": "a1a7be09381a36db8071a1fb12cdd4aa",
 "version.json": "009c9e65172e010890f7f65fde438006",
-"avatar.png": "1f70e98b40767c4aae328e7b73a090e0",
+"avatar.png": "90b87fdd57908bdc9507c156b89591e9",
 "manifest.json": "f5293d9d26612bc00f5cb4e1d21094a7"};
 // The application shell files that are downloaded before a service worker can
 // start.
