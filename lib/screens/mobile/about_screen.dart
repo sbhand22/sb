@@ -64,29 +64,29 @@ class AboutScreen extends StatelessWidget {
               index != 0 ? 15.sp : 0,
             ),
           ),
+          // Gap(15.sp),
+          // Text(
+          //   'Cultural achievements',
+          //   style: TextStyle(
+          //     fontSize: 16.sp,
+          //     fontWeight: FontWeight.w500,
+          //   ),
+          // ),
+          // Gap(15.sp),
+          // ListView.builder(
+          //   physics: const NeverScrollableScrollPhysics(),
+          //   padding: EdgeInsets.zero,
+          //   shrinkWrap: true,
+          //   itemCount: culAchievementsList.length,
+          //   itemBuilder: (ctx, index) => achievements(
+          //     context,
+          //     culAchievementsList[index],
+          //     index != 0 ? 15.sp : 0,
+          //   ),
+          // ),
           Gap(15.sp),
           Text(
-            'Cultural achievements',
-            style: TextStyle(
-              fontSize: 16.sp,
-              fontWeight: FontWeight.w500,
-            ),
-          ),
-          Gap(15.sp),
-          ListView.builder(
-            physics: const NeverScrollableScrollPhysics(),
-            padding: EdgeInsets.zero,
-            shrinkWrap: true,
-            itemCount: culAchievementsList.length,
-            itemBuilder: (ctx, index) => achievements(
-              context,
-              culAchievementsList[index],
-              index != 0 ? 15.sp : 0,
-            ),
-          ),
-          Gap(15.sp),
-          Text(
-            'Hey there! Ready to be blown away? Check out my Instagram for some killer singing and guitar skills! 🎶🎸',
+            'Hey there! Ready to be blown away? Check out my project and experince!',
             textAlign: TextAlign.center,
             style: TextStyle(
               fontWeight: FontWeight.w400,

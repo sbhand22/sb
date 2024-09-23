@@ -80,41 +80,41 @@ class AboutScreen extends StatelessWidget {
                   ],
                 ),
               ),
-              SizedBox(
-                width: context.width / 2.5,
-                child: Column(
-                  mainAxisSize: MainAxisSize.min,
-                  mainAxisAlignment: MainAxisAlignment.start,
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: [
-                    Text(
-                      'Cultural achievements',
-                      style: TextStyle(
-                        fontSize: 22.sp,
-                        fontWeight: FontWeight.w500,
-                      ),
-                    ),
-                    Gap(30.sp),
-                    ListView.builder(
-                      physics: const NeverScrollableScrollPhysics(),
-                      padding: EdgeInsets.zero,
-                      shrinkWrap: true,
-                      itemCount: culAchievementsList.length,
-                      itemBuilder: (ctx, index) => achievements(
-                        context,
-                        culAchievementsList[index],
-                        context.screenSize,
-                        index != 0 ? 30.sp : 0,
-                      ),
-                    ),
-                  ],
-                ),
-              ),
+              // SizedBox(
+              //   width: context.width / 2.5,
+              //   child: Column(
+              //     mainAxisSize: MainAxisSize.min,
+              //     mainAxisAlignment: MainAxisAlignment.start,
+              //     crossAxisAlignment: CrossAxisAlignment.center,
+              //     children: [
+              //       Text(
+              //         'Cultural achievements',
+              //         style: TextStyle(
+              //           fontSize: 22.sp,
+              //           fontWeight: FontWeight.w500,
+              //         ),
+              //       ),
+              //       Gap(30.sp),
+              //       ListView.builder(
+              //         physics: const NeverScrollableScrollPhysics(),
+              //         padding: EdgeInsets.zero,
+              //         shrinkWrap: true,
+              //         itemCount: culAchievementsList.length,
+              //         itemBuilder: (ctx, index) => achievements(
+              //           context,
+              //           culAchievementsList[index],
+              //           context.screenSize,
+              //           index != 0 ? 30.sp : 0,
+              //         ),
+              //       ),
+              //     ],
+              //   ),
+              // ),
             ],
           ),
           Gap(30.sp),
           Text(
-            'Hey there! Ready to be blown away? Check out my Instagram for some killer singing and guitar skills! 🎶🎸',
+            'Hey there! Ready to be blown away? Check out my project and experince!',
             style: TextStyle(
               fontWeight: FontWeight.w400,
               color: Theme.of(context).colorScheme.tertiary,

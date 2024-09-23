@@ -39,7 +39,7 @@ class CustomBottomBar extends StatelessWidget {
                   bottomBarConnection(
                     context,
                     asset: location,
-                    text: 'Chapel Hill, NC, USA',
+                    text: 'Tempe, AZ, USA',
                     onTap: () {},
                   ),
                   Gap(10.sp),
@@ -90,7 +90,7 @@ class CustomBottomBar extends StatelessWidget {
           ),
           Gap(15.sp),
           Text(
-            'Built with ❤️ by Yashas H Majmudar',
+            'Built with ❤️ by Sai Bhandari',
             style: TextStyle(
               color: Theme.of(context).colorScheme.tertiary,
               fontSize: 12.sp,

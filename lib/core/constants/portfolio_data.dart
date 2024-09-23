@@ -4,28 +4,25 @@ import 'package:portfolio/core/model/experience_model.dart';
 import 'package:portfolio/core/model/project_model.dart';
 import 'package:portfolio/core/model/testimonial_model.dart';
 
-const String aboutBrief = '👨🏻‍💻 Experienced developer extraordinaire '
-    'here! 💼 With a knack for crafting robust solutions and coding wizardry,'
-    ' I\'m your go-to guy for turning ideas into reality. 🛠️ With a proven '
-    'track record of success in diverse projects, I thrive on challenges and '
-    'constantly seek opportunities to innovate and push boundaries. 🧙🏻‍♂️ My '
-    'dedication to excellence, coupled with a passion for learning and growth'
-    ', allows me to adapt swiftly to new technologies and deliver exceptional'
-    ' results. 🌟 I\'m committed to leveraging my skills and experience to'
-    ' drive meaningful impact and contribute to the success of every project'
-    ' I undertake. 🚀 Let\'s collaborate and create something truly magical'
-    ' together! ✨';
+const String aboutBrief = 'Hi, I\'m Sai Bhandari, an experienced '
+    ' Software Developer 👨🏻‍💻 with a proven track record in delivering innovative '
+    'and efficient solutions across diverse industries. 💼 From building '
+    'high-performance APIs to scaling full-stack applications, I thrive on '
+    'challenges that push my skills to the limit. 🛠️ My journey through cutting-edge '
+    'technologies such as AWS, GCP, and DevOps tools has equipped me to build robust, '
+    'scalable, and secure architectures. 🌟 My passion for learning, combined with '
+    'hands-on experience in backend systems, cloud services, and mobile applications, '
+    'enables me to deliver exceptional results on every project I undertake. 🚀 '
+    'Let\'s collaborate and transform ideas into impactful realities! ✨';
 
 const String about =
-    "🚀 I'm the Maestro of Code at <b>Practice Buzz!</b><br><br>"
-    "🌐 As a Software Sorcerer, I craft enchanting cross-platform apps that dance seamlessly between devices using <b>Flutter</b> and <b>Dart</b>. I don't just build apps; I craft experiences that users won't forget.<br><br>🎨 Frontend arts are not lost on me. <b>HTML</b>, <b>CSS</b>, <b>Javascript</b>, <b>React</b> are my brushes, turning screens into canvases that tell compelling tales.<br><br>"
-    "💻 In the backend battlegrounds, I wield the mighty <b>Node</b> and <b>Express</b>, sculpting APIs that are more robust than a fortress, backed by the formidable powers of <b>PostgreSQL</b> or the nimble <b>MongoDB</b>. With the wisdom of cloud giants, I effortlessly navigate the realms of <b>AWS</b>, <b>Firebase</b>, and <b>Google Cloud</b>, crafting digital ecosystems that transcend ordinary boundaries.<br><br>"
-    "🐳 <b>Docker</b> is my magic potion, encapsulating my innovations into digital time capsules. When chaos reigns, I summon the <b>Kubernetes</b> forces, orchestrating containers like a symphony conductor.<br><br>"
-    "🏗️ DevOps is my realm; CI/CD is my anthem. <b>Git workflows</b>, <b>Jenkins</b>, and the rhythmic beats of version control with <b>Git</b> and the automated enchantments of <b>Ansible</b> as my trusty steeds, ensuring each line of code dances flawlessly from creation to deployment.<br><br>"
-    "🌐 Stepping into the collaborative cosmos, I am fluent in the languages of collaboration platforms — <b>Jira</b>, <b>Trello</b>, and <b>Slack</b>. I orchestrate seamless teamwork, ensuring that communication flows like a well-rehearsed melody.<br><br>"
-    "🎓 Armed with a <b>Bachelor's in Computer Science Engineering</b> from Indus University Ahmedabad, I don't just study code; I sculpt it into winning solutions, conquering hackathons and competitions with flair.<br><br>"
-    "💻 From the elegance of Java to the versatility of <b>Python</b>, the dynamism of <b>Java</b> to the power of <b>C++</b>, every coding language, including the rhythmic <b>Bash</b>, is a note in my symphony. <b>GitHub</b> and <b>GitLab</b> are my arenas, where repositories thrive like digital ecosystems.<br><br>"
-    "💡 I don't just write code; I build innovative solutions that push the boundaries of what's possible. Join me on this journey, where every line of code is a stroke of genius! ⚡️";
+    "🚀 I’m Sai Bhandari, a passionate Software Developer with expertise across a wide range of technologies.<br><br>"
+    "🌐 I specialize in developing high-performance mobile and web applications using cutting-edge technologies like <b>React Native</b>, <b>TypeScript</b>, <b>Django</b>, and <b>Firebase</b>. My focus is on crafting seamless, efficient user experiences for large-scale systems. From designing RESTful APIs to optimizing backend infrastructures, I deliver end-to-end solutions that drive results.<br><br>"
+    "💻 Whether it’s implementing real-time messaging systems with <b>Java Spring Boot</b> or developing robust data pipelines using <b>Apache Kafka</b> and <b>Spark</b>, I thrive in dynamic environments where innovation meets performance. With experience deploying scalable architectures on <b>AWS</b> and <b>GCP</b>, I ensure that my solutions are not only functional but also future-proof.<br><br>"
+    "🏗️ DevOps is second nature to me. I leverage <b>Jenkins</b>, <b>Docker</b>, <b>Kubernetes</b>, and <b>Ansible</b> to automate development pipelines, reducing deployment time and minimizing errors. My skills in continuous integration and delivery ensure rapid iterations and reliable software delivery.<br><br>"
+    "📊 I’m also adept at integrating <b>Power BI</b> for data visualization and analysis, enabling teams to gain actionable insights from complex datasets. My experience with <b>ElasticSearch</b> and <b>WebSockets</b> further enhances my ability to build responsive, real-time systems.<br><br>"
+    "🎓 With an M.S. in Information Technology from Arizona State University and a B.E. from Savitribai Phule Pune University, I have a solid academic foundation to back my hands-on expertise. I hold multiple certifications, including AWS Certified Solutions Architect, and I continuously seek to expand my knowledge in cloud and AI technologies.<br><br>"
+    "💡 I’m always excited to work on projects that challenge the status quo. Whether it’s building a new feature, optimizing performance, or deploying to the cloud, I aim to deliver top-notch solutions that exceed expectations. Let’s build something exceptional together! ⚡️";
 
 const List<String> navItems = [
   'Home',
@@ -98,39 +95,37 @@ const Map<String, Map<String, String>> skills = {
 final List<ExperienceModel> experienceList = [
   ExperienceModel(
     identifier: 'pb',
-    role: 'Senior Software Developer',
-    organization: 'PracticeBuzz',
-    from: DateTime(2023, DateTime.june),
-    to: DateTime(2024, DateTime.july),
-    shortDescription: '🎨 Crafted captivating cross-platform Flutter apps, '
-        'sprinkling them with a touch of magic to enchant users and boost '
-        'engagement by 30%\n\n💻 Masterminded custom APIs with Node.js and '
-        'SQL wizardry, conjuring a 40% increase in data processing speed and '
-        'shaving 50ms off server response time.\n\n📢 Orchestrated a symphony'
-        ' of notifications, charming users with timely alerts and enhancing '
-        'engagement by 25%, keeping them spellbound and coming back for more.',
-    longDescription: '🚀 Successfully set up and configured a cloud server '
-        'infrastructure to efficiently host APIs, ensuring seamless '
-        'accessibility and performance for users worldwide.\n\n💳 Seamlessly '
-        'integrated a user-friendly payments interface into the website, '
-        'resulting in a significant 15% increase in online sales within the '
-        'initial month of implementation.\n\n🖥️ Engineered a sophisticated '
-        'content management system, empowering remote updates to the app\'s '
-        'text content without the need for frequent app updates, thereby '
-        'enhancing agility and adaptability.\n\n🏆 Engineered '
-        'a dynamic leaderboard feature within the app, fostering healthy '
-        'competition and increasing user engagement with quizzes by an '
-        'impressive 25%.\n\n⚕️ Seamlessly integrated a health tracking '
-        'functionality into the app, syncing user\'s health data with default'
-        ' health apps, resulting in a 20% increase in user engagement and '
-        'improved wellness monitoring.\n\n🔄 Implemented Python scripts and '
-        'configured cronjobs to fetch user query data from web forms, '
-        'converting it to Excel format for comprehensive data analysis and '
-        'reporting.',
+    role: 'Software Developer',
+    organization: 'Arizona State University',
+    from: DateTime(2023, DateTime.march),
+    to: DateTime.now(),
+    shortDescription:
+        'Developed a mobile application using React Native with TypeScript,'
+        ' enhancing backend functionalities through Django and Firebase, resulting'
+        ' in a RESTful architecture that supports over 40 API calls. This platform'
+        ' serves more than 5000 users with reliable, scalable performance.\n\n'
+        'Implemented advanced unit and integration testing frameworks including '
+        ' JUnit, Mockito, and pytest, achieving an industry-leading 95% code coverage. '
+        ' Collaborated with cross-functional teams to ensure seamless integration across '
+        'the mobile and backend components, enhancing user experience and performance.',
+    longDescription:
+        '• Enhanced backend performance by optimizing Firebase database interactions,'
+        ' resulting in a 15% reduction in query execution time.\n\n'
+        '• Implemented caching strategies in the mobile app to reduce API call'
+        ' overhead, leading to a 20% increase in app load speeds and overall performance.\n\n'
+        '• Led cross-functional collaboration with the design and product teams to'
+        ' integrate new features, boosting user engagement by 30%.\n\n'
+        '• Designed and deployed secure authentication methods, ensuring the app’s data'
+        ' integrity and user privacy across all platforms.\n\n'
+        '• Mentored junior developers on testing best practices and code '
+        'optimization techniques, leading to a more efficient and bug-free development process.',
     skills: [
-      'Flutter/Dart',
-      'Node.js',
-      'Express.js',
+      'React Native',
+      'TypeScript',
+      'Django',
+      'Firebase',
+      'JUnit',
+      'Mockito',
       'Git',
       'Bash',
       'Python',
@@ -139,160 +134,105 @@ final List<ExperienceModel> experienceList = [
   ),
   ExperienceModel(
     identifier: 'internships',
-    role: 'Software Developer',
-    organization: 'Internships & Freelancing',
-    from: DateTime(2019, DateTime.august),
-    to: DateTime(2023, DateTime.may),
-    shortDescription: '🌟 Dabbled in over 7 internships, wearing hats as a '
-        'software sorcerer, Flutter magician, game genie, and Android '
-        'alchemist.\n\n🧙‍♂️ Delivered projects with wizard-like efficiency, '
-        'waving my wand to ensure on-time completion and submission with '
-        'fewer bugs than a spellbound forest.',
-    longDescription: '',
-    skills: [],
-  ),
-  ExperienceModel(
-    identifier: 'cy',
-    role: 'Software Developer Intern',
-    organization: 'Camp Yellow',
-    from: DateTime(2023, DateTime.april),
-    to: DateTime(2023, DateTime.may),
-    shortDescription: 'Engineered a parallel downloading method and file '
-        'compression technique, reducing download time by 50% for 1000+ daily'
-        ' active users. 🚀⏬\n\nImplemented a dynamic system to update '
-        'gameplay storyboards from Excel sheets, streamlining content '
-        'management and reducing update time by 50%. 📊🕹️',
-    longDescription: 'Collaborated with UI/UX designers to integrate '
-        'innovative designs and animations, increasing user engagement by '
-        '30%. 🎨📈\n\nImplemented secure APIs for authentication and data '
-        'transfer, prioritizing data security and user privacy for a '
-        'substantial user base. 🔐🌐\n\nImplemented audio interface for '
-        'seamless background music during gameplay, enhancing user '
-        'experience. 🎵🎮',
+    role: 'Software Developer (Summer Intern)',
+    organization: 'The Decision Theater Network',
+    from: DateTime(2023, DateTime.may),
+    to: DateTime(2023, DateTime.august),
+    shortDescription:
+        'Engineered a high-traffic Flutter app, integrating real-time chat functionality powered by Java Spring Boot and AWS API Gateway, handling over 500+ messages per minute. Enhanced engagement with a custom SOS feature via AWS SNS for 30 users.\n\n'
+        'Developed a data processing pipeline using Apache Kafka and Spark, improving data analytics and user experience for over 1,000 users.',
+    longDescription:
+        '• Optimized message routing and reduced latency in the chat feature, improving system scalability to handle high-volume traffic.\n\n'
+        '• Implemented a notification system using AWS SNS, enhancing emergency alert functionality and boosting user engagement by 15%.\n\n'
+        '• Streamlined data processing by implementing Apache Kafka for real-time message streams and integrated Spark for data analytics, reducing processing time by 30%.\n\n'
+        '• Collaborated with backend engineers to design a microservices architecture, improving maintainability and reducing operational overhead.\n\n'
+        '• Deployed and monitored services using AWS CloudWatch, ensuring system reliability and quick issue resolution.',
     skills: [
       'Flutter/Dart',
-      'CMS',
       'Firebase',
+      'Java Spring Boot',
+      'AWS API Gateway',
+      'Apache Kafka',
+      'Spark',
+      'AWS SNS',
+      'AWS CloudWatch',
+    ],
+  ),
+  ExperienceModel(
+    identifier: 'infosys',
+    role: 'Specialist Programmer',
+    organization: 'Infosys Ltd',
+    from: DateTime(2021, DateTime.december), // Please provide exact dates
+    to: DateTime(2022, DateTime.august), // Please provide exact dates
+    shortDescription:
+        'Led a team to develop a high-performance payment gateway for Saudi Payments using Angular, Node.js, Express, and MongoDB, reducing transaction processing time by 25%.\n\n'
+        'Transitioned the team to an automated DevOps pipeline using CI/CD practices, halving deployment times while improving system reliability.',
+    longDescription:
+        '• Spearheaded the development of a scalable payment gateway for Saudi Payments, optimizing API and database performance to reduce transaction processing times by 25%.\n\n'
+        '• Led the automation of the DevOps pipeline using CI/CD with JIRA and Git, cutting deployment times by 50% and increasing overall project management efficiency.\n\n'
+        '• Coordinated cross-functional teams to implement DevOps best practices, ensuring smooth project integration and seamless releases with minimal errors.\n\n'
+        '• Delivered optimized backend solutions, reducing server response times and enhancing system scalability for high-volume traffic.',
+    skills: [
+      'Angular',
+      'Node.js',
+      'Express',
+      'MongoDB',
+      'CI/CD',
+      'JIRA',
       'Git',
+      'RESTful APIs',
     ],
   ),
   ExperienceModel(
-    identifier: 'grahnumb',
-    role: 'Flutter Game Developer Intern',
-    organization: 'Grahnumb',
-    from: DateTime(2023, DateTime.february),
-    to: DateTime(2023, DateTime.march),
-    shortDescription: 'Spearheaded the development of a visually stunning '
-        'Flutter Flame games, boosting user engagement by 20% and enhancing '
-        'interactivity with immersive visuals and gameplay experiences. 🎮🚀'
-        '\n\nEngineered secure authentication and data APIs, ensuring user '
-        'privacy and achieving an impressive error rate of less than 3%. '
-        'Prioritized data security to establish trust and reliability for '
-        'users. 🔐🌐',
-    longDescription: 'Optimized code efficiency, reducing loading times by '
-        '30% and delivering a smoother gameplay experience. Implemented '
-        'reusable and reliable code to enhance performance and user '
-        'satisfaction. ⚙️🕹️\n\nCrafted and engineered three dynamic Flutter '
-        'games, each contributing to a significant 20% reduction in user '
-        'churn rate 🕹️📉',
+    identifier: 'infosys',
+    role: 'System Engineer Specialist',
+    organization: 'Infosys Ltd',
+    from: DateTime(2020, DateTime.november),
+    to: DateTime(2021, DateTime.november),
+    shortDescription:
+        'Programmed and deployed over 150 RESTful APIs for banking operations using Node.js, Python, and JavaScript, adhering to stringent coding and security standards for VISA’s payment functionality.\n\n'
+        'Conducted comprehensive load/stress testing and developed unit/integration/end-to-end test cases using TestNG, JUnit, Chai-Mocha, Protractor, and Selenium, achieving 98% code coverage.',
+    longDescription:
+        '• Developed and deployed 150+ RESTful APIs for crucial banking operations with strict adherence to coding standards, ensuring high performance and security.\n\n'
+        '• Performed extensive load, stress, and performance testing using TestNG, JUnit, Chai-Mocha, Protractor, and Selenium, optimizing system reliability and achieving 98% code coverage.\n\n'
+        '• Collaborated with cross-functional teams to implement security protocols and testing strategies, ensuring VISA’s payment systems remained robust and scalable.\n\n'
+        '• Contributed to the continuous integration and deployment (CI/CD) pipeline by optimizing API testing, reducing deployment issues by 30%.',
     skills: [
-      'Flutter/Dart',
-      'Flame Game',
-      'Firebase',
-      'Git',
-    ],
-  ),
-  ExperienceModel(
-    identifier: 'ecsol',
-    role: 'Flutter Developer Intern',
-    organization: 'EcoConsumers Solutions Pvt. Ltd.',
-    from: DateTime(2022, DateTime.june),
-    to: DateTime(2022, DateTime.september),
-    shortDescription: 'Developed a B2C mobile app integrated with Firebase, '
-        'resulting in a remarkable 40% increase in user engagement and '
-        'dynamic content delivery 📱🔗\n\nLeveraged the Provider & RiverPod '
-        'library for streamlined state management, yielding a significant 20% '
-        'reduction in development time and enhancing app responsiveness ⚙️🔄'
-        '\n\nImplemented caching using the Hive library, leading to a '
-        'substantial 30% improvement in app performance and a 50% reduction '
-        'in server requests 🚀📊',
-    longDescription: '',
-    skills: [
-      'Flutter/Dart',
-      'RiverPod',
-      'Hive',
-      'Firebase',
-      'Git',
-    ],
-  ),
-  ExperienceModel(
-    identifier: 'raahi',
-    role: 'Android Developer Intern',
-    organization: 'Raahi Mobi Pvt. Ltd.',
-    from: DateTime(2021, DateTime.may),
-    to: DateTime(2021, DateTime.june),
-    shortDescription: 'Integrated caching mechanism, reducing asset loading '
-        'time by 20% for enhanced performance 🕹️⚙️\n\nDeveloped and '
-        'implemented RESTful search and create API, reducing development '
-        'time by 30% 🚀🔍',
-    longDescription: '',
-    skills: [
-      'Android',
-      'Room',
-      'REST API',
-      'Java',
-    ],
-  ),
-  ExperienceModel(
-    identifier: 'surjal',
-    role: 'Android Developer Intern',
-    organization: 'Surjal Services Pvt. Ltd.',
-    from: DateTime(2021, DateTime.january),
-    to: DateTime(2021, DateTime.february),
-    shortDescription: 'Developed a WhatsApp auto-responder app with a 95% '
-        'response rate, boosting user engagement 📱💬\n\nOptimized '
-        'performance and reduced battery consumption by 30% through Android '
-        'native services integration ⚙️🔋',
-    longDescription: '',
-    skills: [
-      'Android',
-      'Room',
-      'Android Services',
-      'Kotlin',
-    ],
-  ),
-  ExperienceModel(
-    identifier: 'yellow',
-    role: 'Android Developer Intern',
-    organization: '99 Yellow',
-    from: DateTime(2020, DateTime.august),
-    to: DateTime(2020, DateTime.december),
-    shortDescription: 'Implemented local storage with Room Database, reducing'
-        ' data retrieval time by 30% 🗄️📉\n\nConducted thorough unit tests '
-        'using JUnit, achieving a test coverage of 95% 🧪🔍',
-    longDescription: '',
-    skills: [
-      'Android',
+      'Node.js',
+      'Python',
+      'JavaScript',
+      'TestNG',
       'JUnit',
-      'Room',
-      'Kotlin',
+      'Chai-Mocha',
+      'Protractor',
+      'Selenium',
+      'RESTful APIs',
     ],
   ),
   ExperienceModel(
-    identifier: 'ngo',
-    role: 'Android Developer Intern',
-    organization: 'Shree Mahesh Heritage',
-    from: DateTime(2020, DateTime.june),
-    to: DateTime(2020, DateTime.july),
-    shortDescription: 'Integrated offline storage, enabling browsing history '
-        'access without internet, enhancing user convenience 🗃️📶\n\n'
-        'Optimized performance with threading techniques, reducing loading '
-        'time by 50% 🚀⏱️',
-    longDescription: '',
+    identifier: 'decyfertech',
+    role: 'Senior Software Developer',
+    organization: 'Decyfertech IT Solutions',
+    from: DateTime(2019, DateTime.march),
+    to: DateTime(2020, DateTime.october),
+    shortDescription:
+        'Co-founded Decyfertech IT Solutions, securing 11 clients and delivering 15+ dynamic websites using Angular, Node.js, Java, and WordPress. Successfully implemented effective CRM strategies, boosting project delivery efficiency.\n\n'
+        'Optimized Python-based development processes, reducing development time by 20% and improving software performance by 15%.',
+    longDescription:
+        '• Built and led a development team utilizing Agile methodologies to streamline project management, improving delivery timelines and client satisfaction.\n\n'
+        '• Managed client relationships and implemented customized business strategies, ensuring 95% client retention over the duration of the projects.\n\n'
+        '• Led the development of 15+ websites, optimizing performance with Angular, Node.js, and WordPress, while also improving backend processes using Python.\n\n'
+        '• Enhanced code quality and performance through rigorous analysis, reducing development time by 20% and improving overall software efficiency by 15%.\n\n'
+        '• Implemented project management tools like JIRA to track progress, improve team collaboration, and ensure timely project deliveries.',
     skills: [
-      'Android',
-      'Room',
-      'Kotlin',
+      'MERN',
+      'AWS',
+      'Node.js',
+      'Java',
+      'WordPress',
+      'Python',
+      'Agile',
+      'JIRA',
     ],
   ),
 ];
@@ -468,65 +408,68 @@ final List<ProjectModel> projectsList = [
 //INFO: Testimonials
 final List<TestimonialModel> testimonials = [
   TestimonialModel(
-    identifier: 'pb',
-    referer: 'Deepak Datta',
-    designation: 'CEO, PracticeBuzz',
+    identifier: 'asu',
+    referer: 'Vipin Verma',
+    designation: 'Assistant Research Scientist, Arizona State University',
     description:
-        'Yashas\'s contributions as a Senior Software Engineer at PracticeBuzz '
-        'are outstanding. His role in developing the DentaVacation app '
-        'showcased technical prowess, innovative design, and a commitment to'
-        ' security. His adaptability, collaboration, and pursuit of '
-        'excellence are commendable.',
+        'Sai\'s contributions as a Software Developer at Arizona State '
+        'University were outstanding. His leadership abilities and technical '
+        'expertise consistently stood out, particularly in mobile app development and backend. '
+        'Sai is quick to grasp complex concepts and deliver innovative solutions, making '
+        'him a valuable team member. His dedication to excellence and problem-solving '
+        'mindset helped the team achieve critical project milestones efficiently. '
+        'I highly recommend Sai for any challenging software development role.',
   ),
   TestimonialModel(
-    identifier: 'eco',
-    referer: 'Manjunath Jakkur Munigowda',
-    designation: 'Director, EcoConsumer Solutions Pvt. Ltd.',
+    identifier: 'infosys',
+    referer: 'Sumit Karmakar',
+    designation: 'Senior Engineer, Visa (formerly Infosys)',
     description:
-        'Yashas\'s time as a Flutter Developer Intern was marked by exceptional'
-        ' skill and dedication. His problem-solving abilities and '
-        'innovative solutions significantly enhanced our mobile app '
-        'development. His commitment to excellence, coupled with his '
-        'teamwork and communication skills, made him an invaluable asset. '
-        'I highly recommend him for any role requiring a skilled software '
-        'developer.',
+        'During Sai\'s tenure at Infosys, he displayed exceptional skill '
+        'in software development and API design. His technical prowess and '
+        'ability to handle complex challenges, especially in creating high-performance '
+        'systems, were impressive. Sai played a pivotal role in ensuring the success '
+        'of multiple projects, and his leadership and teamwork abilities were crucial '
+        'to achieving project goals on time. His adaptability and forward-thinking '
+        'approach make him a strong asset in any development team, and I highly recommend him for any future opportunities.',
   ),
 ];
 
 //INFO: Position of Responsibility
 final List<TestimonialModel> porList = [
   TestimonialModel(
-    identifier: 'sac',
-    referer: 'Student Activity Cell, Indus University',
-    designation: 'President',
-    description:
-        'Masterminded dynamic student events with precision and foresight, '
-        'prioritizing efficiency and strategic planning 🌟🚀\n\n'
-        'Led and energized a 30-strong student team, ensuring flawless '
-        'execution of 80+ events. Skillfully orchestrated efforts for '
-        'seamless event delivery 🤝📅',
-  ),
-  TestimonialModel(
-    identifier: 'gdsc',
-    referer: 'GDSC Android Jams',
-    designation: 'Android Facilitator',
-    description:
-        'Orchestrated three impactful events, resulting in a 25% rise in '
-        'Android development proficiency and a 20% increase in '
-        'knowledge-sharing interactions 👩‍💻🌐\n\n'
-        'Drove a 30% surge in student engagement in tech learning '
-        'initiatives, setting new standards for educational '
-        'excellence 🚀📚',
-  ),
-  TestimonialModel(
-    identifier: 'hackathon',
-    referer: 'Hackathons & Internships',
+    identifier: 'asu_datalab',
+    referer: 'ASU Data Lab',
     designation: 'Team Lead',
-    description: 'Executed projects with a 95% on-time delivery rate and a 40% '
-        'reduction in bugs, highlighting adept project management '
-        'skills and proactive problem-solving under pressure 🚀🛠️\n\n'
-        'Led teams to victory in multiple National Level Hackathons, '
-        'achieving a 90% success rate as Team Lead 🏆👩‍💻',
+    description:
+        'Led the development of a time series data-based model using React '
+        'for the frontend and Node.js for the backend. Deployed a Node.js-based '
+        'backend to host a machine learning model, ensuring seamless integration\n\n'
+        'Managed a cross-functional team to deliver a highly efficient solution, '
+        'driving a 30% improvement in project timeline delivery while maintaining '
+        'exceptional accuracy in model predictions 🧠💻.',
+  ),
+  TestimonialModel(
+    identifier: 'pdc',
+    referer: 'Pune Developers Committee',
+    designation: 'Flutter and AWS Facilitator',
+    description:
+        'Served as the Flutter and AWS Facilitator, organizing and guiding several '
+        'hands-on workshops that significantly improved participant proficiency in '
+        'mobile development and cloud infrastructure.\n\n'
+        'Facilitated the upskilling of 50+ developers, achieving a 40% increase in '
+        'their competency in Flutter development and AWS deployment 🚀📱☁️.',
+  ),
+  TestimonialModel(
+    identifier: 'decyf',
+    referer: 'Decyfertech IT Solutions',
+    designation: 'Chief Technology Officer (CTO)',
+    description:
+        'As CTO during my 3rd year of undergraduate studies, I led a team of 10 developers, '
+        'managing the successful deployment of 15 websites for various clients.\n\n'
+        'Oversaw the end-to-end development cycle, ensuring timely project delivery and '
+        'high client satisfaction, driving a 20% improvement in client retention rates '
+        'through seamless, scalable web solutions 🌐🖥️.',
   ),
 ];
 
@@ -534,78 +477,33 @@ final List<TestimonialModel> porList = [
 final List<AchievementModel> techAchievementsList = [
   AchievementModel(
     identifier: 'sih',
-    eventName: 'Smart India Hackathon 2022',
-    position: 'Finals',
-    description: 'Developed a Fake News Detection AI Website & API, '
-        'showcasing expertise in combating misinformation and advancing '
-        'technology for societal benefit 🏅🤖.',
+    eventName: 'Smart India Hackathon 2019',
+    position: 'Finalist',
+    description:
+        'Developed a scalable platform for startups to streamline operations such as posting jobs, securing funding, and facilitating investments, driving efficiency and collaboration within the startup ecosystem.',
   ),
   AchievementModel(
-    identifier: 'nirma22',
-    eventName: 'Nirma University National Hackathon 2022',
-    position: '1st',
-    description: 'Developed an American Sign Language gesture detector using '
-        'open Computer Vision, showcasing commitment to accessibility and '
-        'inclusive technology 🏆👐.',
+    identifier: 'SPPU',
+    eventName: 'SPPU Hackathon 2018',
+    position: '2nd Place',
+    description:
+        'Created an advanced weather control and monitoring system for greenhouses, integrated with AI-based crop health monitoring to optimize agricultural processes and enhance crop management.',
   ),
   AchievementModel(
-    identifier: 'nirma21',
-    eventName: 'Nirma University National Hackathon 2021',
-    position: '1st',
-    description: 'Developed a Cheque Scanner OCR Mobile App, demonstrating '
-        'innovative mobile technology solutions and excellence in '
-        'application development 🥇📱.',
-  ),
-  AchievementModel(
-    identifier: 'parul',
-    eventName: 'Parul University National Hackathon 2020',
-    position: '1st',
-    description: 'Developed an AR Weather App, demonstrating consistent '
-        'excellence in problem-solving and technological innovation 🏆🚀.',
-  ),
-  AchievementModel(
-    identifier: 'indus',
-    eventName: 'Indus University National e-Hackathon 2019',
-    position: '1st',
-    description: 'Developed an IoT MR smart-glass, showcasing proficiency in '
-        'merging IoT and Mixed Reality for cutting-edge solutions 🥇🔍.',
-  ),
-  AchievementModel(
-    identifier: 'ssip',
-    eventName: 'Student Startup and Innovation Program 2019',
-    position: '2nd',
-    description: 'Awarded by the CM of Gujarat, for entrepreneurial endeavors'
-        ' and innovative contributions to the startup ecosystem 🌐💡.',
+    identifier: 'scripting_challenge',
+    eventName: 'Scripting Challenge Pune 2017',
+    position: '1st Place',
+    description:
+        'Developed a mobile application with a data scraping script, capable of tracking user actions on Android devices to analyze behavior and enhance user experience.',
   ),
 ];
 
 //INFO: Cultural Achievements
 final List<AchievementModel> culAchievementsList = [
-  AchievementModel(
-    identifier: 'nirma23',
-    eventName: 'Nirma University Western Singing Competition 2023',
-    position: '2nd',
-    description: 'Nailed it with \'Stitches\' by Shawn Mendes in Western '
-        'Singing showdown! 🏆🎤',
-  ),
-  AchievementModel(
-    identifier: 'parul',
-    eventName: 'Parul University E-Cultural Fest 2020',
-    position: '1st',
-    description: 'Snagged the top spot with an epic old song mashup! 🥇🎶',
-  ),
-  AchievementModel(
-    identifier: 'nirma 2019',
-    eventName: 'Nirma Duet Singing Competition 2019',
-    position: '2nd',
-    description: 'Claimed victory with a guitar-duet mashup'
-        ' performance! 🏆🎸',
-  ),
-  AchievementModel(
-    identifier: 'events',
-    eventName: 'Performances at Events',
-    position: 'Stage',
-    description: 'Dazzling crowds with dynamic on-stage performances, '
-        'exuding captivating musical charm 🎤🌟.',
-  ),
+  // AchievementModel(
+  //   identifier: 'zzzz',
+  //   eventName: 'zzz xxx',
+  //   position: '1st',
+  //   description: 'deszzz',
+  // ),
 ];

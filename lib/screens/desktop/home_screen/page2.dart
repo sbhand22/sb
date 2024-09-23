@@ -42,9 +42,10 @@ class _Page2State extends ConsumerState<Page2>
 
       if (item != null &&
           item.itemLeadingEdge <= 0.5 &&
-          !animationController.isAnimating&& mounted) {
+          !animationController.isAnimating &&
+          mounted) {
         animationController.forward();
-      } else if (item != null && item.itemLeadingEdge > 0.7&& mounted) {
+      } else if (item != null && item.itemLeadingEdge > 0.7 && mounted) {
         animationController.reverse();
       }
     });
@@ -135,17 +136,17 @@ class _Page2State extends ConsumerState<Page2>
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             leaderShipBox(
-              porList.getByIdentifier('sac'),
+              porList.getByIdentifier('asu_datalab'),
               0,
               0.4,
             ),
             leaderShipBox(
-              porList.getByIdentifier('gdsc'),
+              porList.getByIdentifier('pdc'),
               0.3,
               0.7,
             ),
             leaderShipBox(
-              porList.getByIdentifier('hackathon'),
+              porList.getByIdentifier('decyf'),
               0.6,
               1,
             ),
