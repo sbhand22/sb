@@ -83,7 +83,7 @@ Future<(bool, String)> sendMessage({
 }) async {
   try {
     final response = await http.post(
-      Uri.parse('https://yashashm.dev/mail'),
+      Uri.parse(''),
       body: jsonEncode({'email': email, 'message': text}),
     );
 
