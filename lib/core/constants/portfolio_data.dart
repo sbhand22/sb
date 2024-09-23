@@ -240,7 +240,34 @@ final List<ExperienceModel> experienceList = [
 //INFO: Projects
 final List<ProjectModel> projectsList = [
   ProjectModel(
-    identifier: 'dentavacation',
+    identifier: 'kira',
+    name: 'KIRA Skin Cancer Detection',
+    shortDescription:
+        'Advanced web application leveraging machine learning to detect and classify skin cancer from image.',
+    longDescription:
+        'Led the development of the KIRA Skin Cancer Detection platform, '
+        'built on Angular and Node.js, aimed at early detection and classification '
+        'of skin cancer through a user-friendly interface 🌐🧑‍⚕️\n\n'
+        'Integrated a Sequential Convolutional Neural Network (CNN) to provide '
+        'real-time predictions with 83% accuracy 📊🤖\n\n'
+        'Utilized AWS services including S3, CloudFront, Lambda, and Amplify '
+        'for scalable hosting, coupled with AWS Cognito for secure '
+        'user authentication and access management ☁️🔒\n\n'
+        'This project fosters better health outcomes by empowering users '
+        'with informed decisions about their skin health through a seamless, technology-driven platform 🛡️💻.',
+    link: 'https://kira-skin-cancer.netlify.app/info',
+    image:
+        'https://raw.githubusercontent.com/sbhand22/SaiBhandari/refs/heads/main/src/assets/Kira/Kira-img.png',
+    skills: [
+      'Angular',
+      'Node.js',
+      'CNN',
+      'AWS',
+      'Machine Learning',
+    ],
+  ),
+  ProjectModel(
+    identifier: 'asl',
     name: 'DentaVacation',
     shortDescription: 'Innovative Flutter app revolutionizing dental care.',
     longDescription: 'Spearheaded the development of the DentaVacation '
@@ -293,116 +320,116 @@ final List<ProjectModel> projectsList = [
       'Maps SDK',
     ],
   ),
-  ProjectModel(
-    identifier: 'asl',
-    name: 'ASL Gesture Detection',
-    shortDescription:
-        'Machine Learning model that converts ASL Gestures to text.',
-    longDescription: '',
-    link: 'https://github.com/yashas-hm/ASL-Gesture-Sensing',
-    image: 'https://yashashm.sirv.com/portfolio/asl.png',
-    skills: [
-      'Python',
-      'TensorFlow',
-      'MediaPipe',
-    ],
-    codeAvailable: true,
-  ),
-  ProjectModel(
-    identifier: 'glow-app-bar',
-    name: 'Glow App Bar',
-    shortDescription:
-        'Widget which shows a glowing transition from when index changes and '
-        'is fully customizable',
-    longDescription: '',
-    link: 'https://pub.dev/packages/glow_bottom_app_bar',
-    image: 'https://yashashm.sirv.com/portfolio/glowAppBar.gif',
-    skills: [
-      'Flutter',
-      'Animations',
-    ],
-    codeAvailable: false,
-  ),
-  ProjectModel(
-    identifier: 'auto-whatsapp',
-    name: 'AutoWhatsapp',
-    shortDescription: 'An Android app automating WhatsApp replies for '
-        'enhanced messaging efficiency and convenience.',
-    longDescription: '',
-    link: 'https://github.com/yashas-hm/AutoWhatsapp',
-    image: 'https://yashashm.sirv.com/portfolio/autowhatsapp.jpg',
-    skills: [
-      'Android',
-      'Background Services',
-      'Firebase',
-    ],
-    codeAvailable: true,
-  ),
-  ProjectModel(
-    identifier: 'smart-glass',
-    name: 'Smart Glass',
-    shortDescription: 'Low-Cost Efficient AR Smart Glass',
-    longDescription: '',
-    link: 'https://github.com/yashas-hm/Smart-Glass',
-    image: 'https://yashashm.sirv.com/portfolio/smartglass.jpg',
-    skills: [
-      'Iot',
-      'Arduino',
-      'AR',
-    ],
-    codeAvailable: true,
-  ),
-  ProjectModel(
-    identifier: 'space-invaders',
-    name: 'Space Invaders',
-    shortDescription: 'Re-creating of an old game: Space Invaders',
-    longDescription: '',
-    link: 'https://github.com/yashas-hm/Space_Invaders_JavaFX',
-    image: 'https://yashashm.sirv.com/portfolio/spaceinvaders.jpg',
-    skills: [
-      'Java',
-      'JavaFX',
-    ],
-    codeAvailable: true,
-  ),
-  ProjectModel(
-    identifier: 'recipe-fetch',
-    name: 'Recipe Scraper API',
-    shortDescription: 'A simple web scraper api for recipes',
-    longDescription: '',
-    link: 'https://github.com/yashas-hm/Recipe-Scraper-API',
-    image: 'https://yashashm.sirv.com/portfolio/recipefetch.png',
-    skills: [
-      'Python',
-      'Flask',
-    ],
-    codeAvailable: true,
-  ),
-  ProjectModel(
-    identifier: 'exam-assigner',
-    name: 'Faculty Exam Assigner',
-    shortDescription: 'A GUI-based system randomly assigns faculties to exam '
-        'slots while adhering to specified constraints on reoccurrence.',
-    longDescription: '',
-    link: 'https://github.com/yashas-hm/Exam_Supervision_Assigner',
-    image: 'https://yashashm.sirv.com/portfolio/examassigner.png',
-    skills: [
-      'Python',
-      'Tkinter',
-      'Pandas',
-    ],
-    codeAvailable: true,
-  ),
-  ProjectModel(
-    identifier: 'midi-drums',
-    name: 'MIDI Drums',
-    shortDescription: 'A simple cost efficient MIDI Drum Set',
-    longDescription: '',
-    link: 'https://github.com/yashas-hm/Arduino-MIDI-Drums',
-    image: 'https://yashashm.sirv.com/portfolio/drums.png',
-    skills: ['IoT', 'Arduino'],
-    codeAvailable: true,
-  ),
+  // ProjectModel(
+  //   identifier: 'asl',
+  //   name: 'ASL Gesture Detection',
+  //   shortDescription:
+  //       'Machine Learning model that converts ASL Gestures to text.',
+  //   longDescription: '',
+  //   link: 'https://github.com/yashas-hm/ASL-Gesture-Sensing',
+  //   image: 'https://yashashm.sirv.com/portfolio/asl.png',
+  //   skills: [
+  //     'Python',
+  //     'TensorFlow',
+  //     'MediaPipe',
+  //   ],
+  //   codeAvailable: true,
+  // ),
+  // ProjectModel(
+  //   identifier: 'glow-app-bar',
+  //   name: 'Glow App Bar',
+  //   shortDescription:
+  //       'Widget which shows a glowing transition from when index changes and '
+  //       'is fully customizable',
+  //   longDescription: '',
+  //   link: 'https://pub.dev/packages/glow_bottom_app_bar',
+  //   image: 'https://yashashm.sirv.com/portfolio/glowAppBar.gif',
+  //   skills: [
+  //     'Flutter',
+  //     'Animations',
+  //   ],
+  //   codeAvailable: false,
+  // ),
+  // ProjectModel(
+  //   identifier: 'auto-whatsapp',
+  //   name: 'AutoWhatsapp',
+  //   shortDescription: 'An Android app automating WhatsApp replies for '
+  //       'enhanced messaging efficiency and convenience.',
+  //   longDescription: '',
+  //   link: 'https://github.com/yashas-hm/AutoWhatsapp',
+  //   image: 'https://yashashm.sirv.com/portfolio/autowhatsapp.jpg',
+  //   skills: [
+  //     'Android',
+  //     'Background Services',
+  //     'Firebase',
+  //   ],
+  //   codeAvailable: true,
+  // ),
+  // ProjectModel(
+  //   identifier: 'smart-glass',
+  //   name: 'Smart Glass',
+  //   shortDescription: 'Low-Cost Efficient AR Smart Glass',
+  //   longDescription: '',
+  //   link: 'https://github.com/yashas-hm/Smart-Glass',
+  //   image: 'https://yashashm.sirv.com/portfolio/smartglass.jpg',
+  //   skills: [
+  //     'Iot',
+  //     'Arduino',
+  //     'AR',
+  //   ],
+  //   codeAvailable: true,
+  // ),
+  // ProjectModel(
+  //   identifier: 'space-invaders',
+  //   name: 'Space Invaders',
+  //   shortDescription: 'Re-creating of an old game: Space Invaders',
+  //   longDescription: '',
+  //   link: 'https://github.com/yashas-hm/Space_Invaders_JavaFX',
+  //   image: 'https://yashashm.sirv.com/portfolio/spaceinvaders.jpg',
+  //   skills: [
+  //     'Java',
+  //     'JavaFX',
+  //   ],
+  //   codeAvailable: true,
+  // ),
+  // ProjectModel(
+  //   identifier: 'recipe-fetch',
+  //   name: 'Recipe Scraper API',
+  //   shortDescription: 'A simple web scraper api for recipes',
+  //   longDescription: '',
+  //   link: 'https://github.com/yashas-hm/Recipe-Scraper-API',
+  //   image: 'https://yashashm.sirv.com/portfolio/recipefetch.png',
+  //   skills: [
+  //     'Python',
+  //     'Flask',
+  //   ],
+  //   codeAvailable: true,
+  // ),
+  // ProjectModel(
+  //   identifier: 'exam-assigner',
+  //   name: 'Faculty Exam Assigner',
+  //   shortDescription: 'A GUI-based system randomly assigns faculties to exam '
+  //       'slots while adhering to specified constraints on reoccurrence.',
+  //   longDescription: '',
+  //   link: 'https://github.com/yashas-hm/Exam_Supervision_Assigner',
+  //   image: 'https://yashashm.sirv.com/portfolio/examassigner.png',
+  //   skills: [
+  //     'Python',
+  //     'Tkinter',
+  //     'Pandas',
+  //   ],
+  //   codeAvailable: true,
+  // ),
+  // ProjectModel(
+  //   identifier: 'midi-drums',
+  //   name: 'MIDI Drums',
+  //   shortDescription: 'A simple cost efficient MIDI Drum Set',
+  //   longDescription: '',
+  //   link: 'https://github.com/yashas-hm/Arduino-MIDI-Drums',
+  //   image: 'https://yashashm.sirv.com/portfolio/drums.png',
+  //   skills: ['IoT', 'Arduino'],
+  //   codeAvailable: true,
+  // ),
 ];
 
 //INFO: Testimonials

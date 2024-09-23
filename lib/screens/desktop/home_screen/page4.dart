@@ -29,7 +29,7 @@ class _Page4State extends ConsumerState<Page4>
   @override
   void initState() {
     projects = [
-      projectsList.getByIdentifier('dentavacation'),
+      projectsList.getByIdentifier('kira'),
       projectsList.getByIdentifier('spotter'),
       projectsList.getByIdentifier('asl'),
     ];
@@ -54,7 +54,8 @@ class _Page4State extends ConsumerState<Page4>
 
       if (item != null &&
           item.itemLeadingEdge <= 0.7 &&
-          !animationController.isAnimating && mounted) {
+          !animationController.isAnimating &&
+          mounted) {
         animationController.forward();
       } else if (item != null && item.itemLeadingEdge > 0.7 && mounted) {
         animationController.reverse();
