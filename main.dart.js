@@ -29580,7 +29580,7 @@ var $async$BW=A.Q(function(c,d){if(c===1){o=d
 s=p}while(true)switch(s){case 0:p=4
 k=t.N
 s=7
-return A.X(A.bmi(A.e9("https://yashashm.dev/mail",0,null),B.cr.a2m(A.a7(["email",a,"message",b],k,k),null)),$async$BW)
+return A.X(A.bmi(A.e9("",0,null),B.cr.a2m(A.a7(["email",a,"message",b],k,k),null)),$async$BW)
 case 7:n=d
 k=n
 m=B.cr.a1J(0,A.bkS(A.bi_(k.e).c.a.i(0,"charset")).f4(0,k.w),null)
