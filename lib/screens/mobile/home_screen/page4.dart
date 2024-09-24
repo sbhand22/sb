@@ -21,9 +21,9 @@ class Page4 extends ConsumerStatefulWidget {
 class _Page4State extends ConsumerState<Page4>
     with SingleTickerProviderStateMixin {
   final List<ProjectModel> projects = [
-    projectsList.getByIdentifier('dentavacation'),
+    projectsList.getByIdentifier('kira'),
     projectsList.getByIdentifier('spotter'),
-    projectsList.getByIdentifier('asl'),
+    projectsList.getByIdentifier('chatbuzz'),
     projectsList.getByIdentifier('glow-app-bar'),
   ];
   late final AnimationController animationController;
@@ -53,9 +53,10 @@ class _Page4State extends ConsumerState<Page4>
 
       if (item != null &&
           item.itemLeadingEdge <= 0.7 &&
-          !animationController.isAnimating&& mounted) {
+          !animationController.isAnimating &&
+          mounted) {
         animationController.forward();
-      } else if (item != null && item.itemLeadingEdge > 0.7&& mounted) {
+      } else if (item != null && item.itemLeadingEdge > 0.7 && mounted) {
         animationController.reverse();
       }
     });

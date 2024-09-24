@@ -31,7 +31,7 @@ class _Page4State extends ConsumerState<Page4>
     projects = [
       projectsList.getByIdentifier('kira'),
       projectsList.getByIdentifier('spotter'),
-      projectsList.getByIdentifier('asl'),
+      projectsList.getByIdentifier('chatbuzz'),
     ];
 
     duration = projects.length * 200.0;

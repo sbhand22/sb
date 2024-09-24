@@ -267,36 +267,30 @@ final List<ProjectModel> projectsList = [
     ],
   ),
   ProjectModel(
-    identifier: 'asl',
-    name: 'DentaVacation',
-    shortDescription: 'Innovative Flutter app revolutionizing dental care.',
-    longDescription: 'Spearheaded the development of the DentaVacation '
-        'Flutter app, resulting in a 40% increase in user engagement 🦷🌍\n\n'
-        'Integrated interactive learning quizzes and videos, contributing to '
-        'a 30% rise in user retention rates 📚🎥\n\nZoho Chat integration '
-        'led to a 25% uptick in user inquiries and a notable 20% enhancement '
-        'in customer satisfaction ratings 💬🤝\n\nImplementation of the '
-        'habit tracker and notification system drove a 35% increase in habit '
-        'adherence among users ⏰🦷\n\nThe cost calculator feature resulted '
-        'in a 40% improvement in user decision-making accuracy regarding '
-        'dental procedures 💰🧮\n\nCommunity forum establishment using '
-        'Docker and Discourse fostered a 50% increase in user engagement and '
-        'interaction 🤔💬\n\nCustom API developed using Node.js and '
-        'Express.js ensured a 30% reduction in data retrieval time, '
-        'enhancing overall app performance 🔒💽\n\nDynamic text update '
-        'system led to a 25% decrease in app update frequency, resulting in '
-        'a smoother user experience 🔄📲',
-    link:
-        'https://github.com/yashas-hm/just-documentation/blob/main/DentaVacation/DentaVacation.md',
-    image: 'https://yashashm.sirv.com/portfolio/dentavacation.png',
+    identifier: 'chatbuzz',
+    name: 'ChatBuzz',
+    shortDescription: 'Real-time Firebase-powered chat app built with Flutter.',
+    longDescription:
+        'Led the development of ChatBuzz, a real-time chat application using Flutter and Firebase, '
+        'which enhanced communication experiences with a 45% increase in user engagement 💬🚀\n\n'
+        'Integrated real-time messaging and multimedia sharing, boosting user satisfaction and retention by 30% 📸🎉\n\n'
+        'Firebase-based authentication and push notifications led to a 20% increase in active users 📱🔒\n\n'
+        'The custom theme system resulted in a 25% increase in app personalization and user experience 🎨✨\n\n'
+        'Implementation of group chat and chat history features enhanced team collaboration by 35% 👥📂\n\n'
+        'Real-time chat synchronization using Firebase Firestore reduced latency by 40%, leading to smoother communication 🔄⚡\n\n'
+        'Utilization of Firebase Cloud Storage improved multimedia storage efficiency by 30%, making sharing easier 🔒💾',
+    link: 'https://github.com/sbhand22/Flutter-chatapp',
+    image:
+        'https://raw.githubusercontent.com/sbhand22/SaiBhandari/refs/heads/main/src/assets/chatapp/flutterlogo.jpg',
     skills: [
       'Flutter',
       'Node.js',
       'Express.js',
-      'SQL',
+      'Firebase',
       'Python',
       'Cloud',
     ],
+    codeAvailable: true,
   ),
   ProjectModel(
     identifier: 'spotter',
