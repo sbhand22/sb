@@ -29496,15 +29496,16 @@ _.f=e
 _.r=f
 _.w=g
 _.a=h},
-aRa(a,b,c,d,e,f,g){return new A.Wz(e,f,d,c,b,g,a)},
-Wz:function Wz(a,b,c,d,e,f,g){var _=this
+aRa(a,b,c,d,e,f,g,h){return new A.Wz(f,g,e,d,c,h,a,b)},
+Wz:function Wz(a,b,c,d,e,f,g,h){var _=this
 _.b=a
 _.c=b
 _.d=c
 _.e=d
 _.f=e
 _.r=f
-_.a=g},
+_.w=g
+_.a=h},
 Zm(a,b,c,d){return new A.Jp(d,b,a,c)},
 Jp:function Jp(a,b,c,d){var _=this
 _.b=a
@@ -105619,7 +105620,7 @@ A.GO.prototype={
 a7(){return new A.a4u(null,null)}}
 A.a4u.prototype={
 ao(){var s,r=this,q=$.C2()
-q=A.a([A.js(q,"kira"),A.js(q,"spotter"),A.js(q,"asl")],t.gd)
+q=A.a([A.js(q,"kira"),A.js(q,"spotter"),A.js(q,"chatbuzz")],t.gd)
 r.x!==$&&A.bj()
 r.x=q
 r.z=600
@@ -106457,7 +106458,7 @@ this.bO()
 this.ep()}}
 A.GP.prototype={
 a7(){var s=$.C2()
-return new A.a4v(A.a([A.js(s,"dentavacation"),A.js(s,"spotter"),A.js(s,"asl"),A.js(s,"glow-app-bar")],t.gd),null,null)}}
+return new A.a4v(A.a([A.js(s,"kira"),A.js(s,"spotter"),A.js(s,"chatbuzz"),A.js(s,"glow-app-bar")],t.gd),null,null)}}
 A.a4v.prototype={
 ao(){var s,r,q=this
 q.z=1200
@@ -106985,8 +106986,8 @@ n=d.d?a:0
 m=new A.j().p(10)
 l=A.a([],e)
 if(d.a.c.d.length!==0)l.push(new A.k7(1,B.cV,A.cR(c,A.aW("Read More",c,c,c,c,c,c,c,A.as(c,c,c,c,c,c,c,c,c,c,c,new A.j().p(22),c,c,B.a6,c,c,!0,c,c,c,c,c,c,c,c),c,c,c),B.G,!1,c,c,c,c,c,c,c,c,c,c,c,c,c,c,new A.aHi(d,a1),c,c,c),c))
-d.a.toString
-l.push(new A.k7(1,B.cV,A.cR(c,A.aW("Visit Site \u2197",c,c,c,c,c,c,c,A.as(c,c,c,c,c,c,c,c,c,c,c,new A.j().p(16),c,c,c,c,c,!0,c,c,c,c,c,c,c,c),c,c,c),B.G,!1,c,c,c,c,c,c,c,c,c,c,c,c,c,c,new A.aHj(d),c,c,c),c))
+k=d.a.c.w?"View Code \u2197":"Visit Site \u2197"
+l.push(new A.k7(1,B.cV,A.cR(c,A.aW(k,c,c,c,c,c,c,c,A.as(c,c,c,c,c,c,c,c,c,c,c,new A.j().p(16),c,c,c,c,c,!0,c,c,c,c,c,c,c,c),c,c,c),B.G,!1,c,c,c,c,c,c,c,c,c,c,c,c,c,c,new A.aHj(d),c,c,c),c))
 return A.vF(new A.dM(new A.ao(p,new A.aE(0,1,s),s.h("ao<at.T>")),!1,A.dY(A.aR(c,A.eU(B.aI,A.a([f,new A.dS(B.eX,c,c,A.xh(h,A.t5(A.aUv(c,A.c1(l,B.u,B.bW,B.C),B.oR,g,n,new A.ai(m,m,m,m),a0),i)),c)],e),B.D,B.aB),B.D,c,c,new A.bB(o.ax.y,c,c,q,c,c,c,B.F),c,a,c,c,c,c,c,a0),B.aq,c,new A.aHk(d),new A.aHl(d),c,!1),c),new A.ao(r,new A.aE(B.Wd,B.f,b),b.h("ao<at.T>")),c,!0)}}
 A.aHk.prototype={
 $1(a){var s=this.a
@@ -107658,35 +107659,35 @@ s.aA()}}
 A.z3.prototype={
 a7(){return new A.a5i()}}
 A.a5i.prototype={
-L(a2){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d=this,c=null,b=A.a6(a2,c,t.l).w,a=t.Y,a0=d.a,a1=a0.f
-a1=A.cH(new A.e5(a0.d,a0.e,B.at),a1,c)
-a0=A.bp(new A.j().p(13))
-s=A.C(a2)
-r=d.a.c
+L(a3){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c=this,b=null,a=A.a6(a3,b,t.l).w,a0=t.Y,a1=c.a,a2=a1.f
+a2=A.cH(new A.e5(a1.d,a1.e,B.at),a2,b)
+a1=A.bp(new A.j().p(13))
+s=A.C(a3)
+r=c.a.c
 q=A.ax(new A.j().p(5))
 p=new A.j().p(10)
-o=A.m3(d.a.c.b,1,5,0.1,A.as(c,c,c,c,c,c,c,c,c,c,c,new A.j().p(14),c,c,B.a6,c,c,!0,c,c,c,c,c,c,c,c),c)
+o=A.m3(c.a.c.b,1,5,0.1,A.as(b,b,b,b,b,b,b,b,b,b,b,new A.j().p(14),b,b,B.a6,b,b,!0,b,b,b,b,b,b,b,b),b)
 n=A.ax(new A.j().p(5))
 m=new A.j().p(10)
-m=A.mj(new A.dZ(new A.ai(m,0,m,0),A.m3(d.a.c.c,c,5,0.1,A.as(c,c,c,c,c,c,c,c,c,c,c,new A.j().p(12),c,c,c,c,c,!0,c,c,c,c,c,c,c,c),c),c))
+m=A.mj(new A.dZ(new A.ai(m,0,m,0),A.m3(c.a.c.c,b,5,0.1,A.as(b,b,b,b,b,b,b,b,b,b,b,new A.j().p(12),b,b,b,b,b,!0,b,b,b,b,b,b,b,b),b),b))
 l=A.ax(new A.j().p(5))
-k=d.a.c
+k=c.a.c
 j=A.ax(new A.j().p(10))
 i=new A.j().p(10)
 h=new A.j().p(2)
 g=new A.j().p(5)
 f=A.bp(new A.j().p(5))
-e=A.C(a2)
-d.a.toString
-b=A.a([new A.Dx(b.a.b/4/2.3,1/0,r.f,c),q,new A.dZ(new A.ai(p,0,p,0),o,c),n,m,l,new A.IM(k.r,c),j,A.cR(c,A.aR(B.m,A.aW("View Website \u2197",c,c,c,c,c,c,c,A.as(c,c,c,c,c,c,c,c,c,c,c,new A.j().p(10),c,c,B.a6,c,c,!0,c,c,c,c,c,c,c,c),c,c,c),B.j,c,c,new A.bB(e.ax.b,c,c,f,c,c,c,B.F),c,c,c,new A.ai(i,0,i,0),new A.ai(g,h,g,h),c,c,c),B.G,!1,c,c,c,c,c,c,c,c,c,c,c,c,c,c,new A.aHg(d),c,c,c)],t.p)
-if(d.a.c.d!=="")b.push(A.ax(new A.j().p(10)))
-if(d.a.c.d!==""){r=new A.j().p(10)
-q=new A.j().p(2)
-p=new A.j().p(5)
-o=A.bp(new A.j().p(5))
-n=A.C(a2)
-b.push(A.cR(c,A.aR(B.m,A.aW("Read More",c,c,c,c,c,c,c,A.as(c,c,c,c,c,c,c,c,c,c,c,new A.j().p(10),c,c,B.a6,c,c,!0,c,c,c,c,c,c,c,c),c,c,c),B.j,c,c,new A.bB(n.go,c,c,o,c,c,c,B.F),c,c,c,new A.ai(r,0,r,0),new A.ai(p,q,p,q),c,c,c),B.G,!1,c,c,c,c,c,c,c,c,c,c,c,c,c,c,new A.aHh(d,a2),c,c,c))}b.push(A.ax(new A.j().p(10)))
-return new A.dM(new A.ao(a1,new A.aE(0,1,a),a.h("ao<at.T>")),!1,A.aR(c,A.c1(b,B.u,B.x,B.aK),B.D,c,c,new A.bB(s.ax.y,c,c,a0,c,c,c,B.F),c,c,c,c,c,c,c,c),c)}}
+e=A.C(a3)
+d=c.a.c.w?"View Code \u2197":"View Website \u2197"
+h=A.a([new A.Dx(a.a.b/4/2.3,1/0,r.f,b),q,new A.dZ(new A.ai(p,0,p,0),o,b),n,m,l,new A.IM(k.r,b),j,A.cR(b,A.aR(B.m,A.aW(d,b,b,b,b,b,b,b,A.as(b,b,b,b,b,b,b,b,b,b,b,new A.j().p(10),b,b,B.a6,b,b,!0,b,b,b,b,b,b,b,b),b,b,b),B.j,b,b,new A.bB(e.ax.b,b,b,f,b,b,b,B.F),b,b,b,new A.ai(i,0,i,0),new A.ai(g,h,g,h),b,b,b),B.G,!1,b,b,b,b,b,b,b,b,b,b,b,b,b,b,new A.aHg(c),b,b,b)],t.p)
+if(c.a.c.d!=="")h.push(A.ax(new A.j().p(10)))
+if(c.a.c.d!==""){a=new A.j().p(10)
+r=new A.j().p(2)
+q=new A.j().p(5)
+p=A.bp(new A.j().p(5))
+o=A.C(a3)
+h.push(A.cR(b,A.aR(B.m,A.aW("Read More",b,b,b,b,b,b,b,A.as(b,b,b,b,b,b,b,b,b,b,b,new A.j().p(10),b,b,B.a6,b,b,!0,b,b,b,b,b,b,b,b),b,b,b),B.j,b,b,new A.bB(o.go,b,b,p,b,b,b,B.F),b,b,b,new A.ai(a,0,a,0),new A.ai(q,r,q,r),b,b,b),B.G,!1,b,b,b,b,b,b,b,b,b,b,b,b,b,b,new A.aHh(c,a3),b,b,b))}h.push(A.ax(new A.j().p(10)))
+return new A.dM(new A.ao(a2,new A.aE(0,1,a0),a0.h("ao<at.T>")),!1,A.aR(b,A.c1(h,B.u,B.x,B.aK),B.D,b,b,new A.bB(s.ax.y,b,b,a1,b,b,b,B.F),b,b,b,b,b,b,b,b),b)}}
 A.aHg.prototype={
 $0(){return A.rT(this.a.a.c.e)},
 $S:0}
@@ -121137,7 +121138,7 @@ l=A.me(2019,3,1,0,0,0,0)
 n=A.me(2020,10,1,0,0,0,0)
 return A.a([k,q,p,o,A.SK(l,"decyfertech","\u2022 Built and led a development team utilizing Agile methodologies to streamline project management, improving delivery timelines and client satisfaction.\n\n\u2022 Managed client relationships and implemented customized business strategies, ensuring 95% client retention over the duration of the projects.\n\n\u2022 Led the development of 15+ websites, optimizing performance with Angular, Node.js, and WordPress, while also improving backend processes using Python.\n\n\u2022 Enhanced code quality and performance through rigorous analysis, reducing development time by 20% and improving overall software efficiency by 15%.\n\n\u2022 Implemented project management tools like JIRA to track progress, improve team collaboration, and ensure timely project deliveries.","Decyfertech IT Solutions","Senior Software Developer","Co-founded Decyfertech IT Solutions, securing 11 clients and delivering 15+ dynamic websites using Angular, Node.js, Java, and WordPress. Successfully implemented effective CRM strategies, boosting project delivery efficiency.\n\nOptimized Python-based development processes, reducing development time by 20% and improving software performance by 15%.",A.a(["MERN","AWS","Node.js","Java","WordPress","Python","Agile","JIRA"],j),n)],A.af("q<xW>"))})
 s($,"buu","C2",()=>{var q=t.s
-return A.a([A.aRa("kira","https://raw.githubusercontent.com/sbhand22/SaiBhandari/refs/heads/main/src/assets/Kira/Kira-img.png","https://kira-skin-cancer.netlify.app/info","Led the development of the KIRA Skin Cancer Detection platform, built on Angular and Node.js, aimed at early detection and classification of skin cancer through a user-friendly interface \ud83c\udf10\ud83e\uddd1\u200d\u2695\ufe0f\n\nIntegrated a Sequential Convolutional Neural Network (CNN) to provide real-time predictions with 83% accuracy \ud83d\udcca\ud83e\udd16\n\nUtilized AWS services including S3, CloudFront, Lambda, and Amplify for scalable hosting, coupled with AWS Cognito for secure user authentication and access management \u2601\ufe0f\ud83d\udd12\n\nThis project fosters better health outcomes by empowering users with informed decisions about their skin health through a seamless, technology-driven platform \ud83d\udee1\ufe0f\ud83d\udcbb.","KIRA Skin Cancer Detection","Advanced web application leveraging machine learning to detect and classify skin cancer from image.",A.a(["Angular","Node.js","CNN","AWS","Machine Learning"],q)),A.aRa("asl","https://yashashm.sirv.com/portfolio/dentavacation.png","https://github.com/yashas-hm/just-documentation/blob/main/DentaVacation/DentaVacation.md","Spearheaded the development of the DentaVacation Flutter app, resulting in a 40% increase in user engagement \ud83e\uddb7\ud83c\udf0d\n\nIntegrated interactive learning quizzes and videos, contributing to a 30% rise in user retention rates \ud83d\udcda\ud83c\udfa5\n\nZoho Chat integration led to a 25% uptick in user inquiries and a notable 20% enhancement in customer satisfaction ratings \ud83d\udcac\ud83e\udd1d\n\nImplementation of the habit tracker and notification system drove a 35% increase in habit adherence among users \u23f0\ud83e\uddb7\n\nThe cost calculator feature resulted in a 40% improvement in user decision-making accuracy regarding dental procedures \ud83d\udcb0\ud83e\uddee\n\nCommunity forum establishment using Docker and Discourse fostered a 50% increase in user engagement and interaction \ud83e\udd14\ud83d\udcac\n\nCustom API developed using Node.js and Express.js ensured a 30% reduction in data retrieval time, enhancing overall app performance \ud83d\udd12\ud83d\udcbd\n\nDynamic text update system led to a 25% decrease in app update frequency, resulting in a smoother user experience \ud83d\udd04\ud83d\udcf2","DentaVacation","Innovative Flutter app revolutionizing dental care.",A.a(["Flutter","Node.js","Express.js","SQL","Python","Cloud"],q)),A.aRa("spotter","https://yashashm.sirv.com/portfolio/spotter.png","https://github.com/spotter-find-your-spot/spotter","Spearheaded the development of Spotter, resulting in a 40% increase in user engagement \ud83c\udf10.\n\nFostered community engagement by connecting local artists, boosting user interaction by 50% \ud83c\udfa8.\n\nImplemented BLoC architecture for Spotter, enhancing code organization and maintainability by 30% \ud83c\udfd7\ufe0f.\n\nIntegrated cutting-edge technologies like Firebase and Google Cloud, improving app robustness and scalability \u2699\ufe0f.\n\nIntroduced strategic image compression techniques, reducing storage requirements by 50% \ud83d\uddbc\ufe0f.\n\nManaged storage efficiently, minimizing storage needs and enhancing data retrieval speed by 25% \ud83d\ude80.\n\n","Spotter: Find your Spot!","Tailored spot suggestions, discounts and community.",A.a(["Flutter","Firebase","Maps SDK"],q))],t.gd)})
+return A.a([A.aRa(!1,"kira","https://raw.githubusercontent.com/sbhand22/SaiBhandari/refs/heads/main/src/assets/Kira/Kira-img.png","https://kira-skin-cancer.netlify.app/info","Led the development of the KIRA Skin Cancer Detection platform, built on Angular and Node.js, aimed at early detection and classification of skin cancer through a user-friendly interface \ud83c\udf10\ud83e\uddd1\u200d\u2695\ufe0f\n\nIntegrated a Sequential Convolutional Neural Network (CNN) to provide real-time predictions with 83% accuracy \ud83d\udcca\ud83e\udd16\n\nUtilized AWS services including S3, CloudFront, Lambda, and Amplify for scalable hosting, coupled with AWS Cognito for secure user authentication and access management \u2601\ufe0f\ud83d\udd12\n\nThis project fosters better health outcomes by empowering users with informed decisions about their skin health through a seamless, technology-driven platform \ud83d\udee1\ufe0f\ud83d\udcbb.","KIRA Skin Cancer Detection","Advanced web application leveraging machine learning to detect and classify skin cancer from image.",A.a(["Angular","Node.js","CNN","AWS","Machine Learning"],q)),A.aRa(!0,"chatbuzz","https://raw.githubusercontent.com/sbhand22/SaiBhandari/refs/heads/main/src/assets/chatapp/flutterlogo.jpg","https://github.com/sbhand22/Flutter-chatapp","Led the development of ChatBuzz, a real-time chat application using Flutter and Firebase, which enhanced communication experiences with a 45% increase in user engagement \ud83d\udcac\ud83d\ude80\n\nIntegrated real-time messaging and multimedia sharing, boosting user satisfaction and retention by 30% \ud83d\udcf8\ud83c\udf89\n\nFirebase-based authentication and push notifications led to a 20% increase in active users \ud83d\udcf1\ud83d\udd12\n\nThe custom theme system resulted in a 25% increase in app personalization and user experience \ud83c\udfa8\u2728\n\nImplementation of group chat and chat history features enhanced team collaboration by 35% \ud83d\udc65\ud83d\udcc2\n\nReal-time chat synchronization using Firebase Firestore reduced latency by 40%, leading to smoother communication \ud83d\udd04\u26a1\n\nUtilization of Firebase Cloud Storage improved multimedia storage efficiency by 30%, making sharing easier \ud83d\udd12\ud83d\udcbe","ChatBuzz","Real-time Firebase-powered chat app built with Flutter.",A.a(["Flutter","Node.js","Express.js","Firebase","Python","Cloud"],q)),A.aRa(!1,"spotter","https://yashashm.sirv.com/portfolio/spotter.png","https://github.com/spotter-find-your-spot/spotter","Spearheaded the development of Spotter, resulting in a 40% increase in user engagement \ud83c\udf10.\n\nFostered community engagement by connecting local artists, boosting user interaction by 50% \ud83c\udfa8.\n\nImplemented BLoC architecture for Spotter, enhancing code organization and maintainability by 30% \ud83c\udfd7\ufe0f.\n\nIntegrated cutting-edge technologies like Firebase and Google Cloud, improving app robustness and scalability \u2699\ufe0f.\n\nIntroduced strategic image compression techniques, reducing storage requirements by 50% \ud83d\uddbc\ufe0f.\n\nManaged storage efficiently, minimizing storage needs and enhancing data retrieval speed by 25% \ud83d\ude80.\n\n","Spotter: Find your Spot!","Tailored spot suggestions, discounts and community.",A.a(["Flutter","Firebase","Maps SDK"],q))],t.gd)})
 s($,"buB","aUd",()=>A.a([A.Zm("Sai's contributions as a Software Developer at Arizona State University were outstanding. His leadership abilities and technical expertise consistently stood out, particularly in mobile app development and backend. Sai is quick to grasp complex concepts and deliver innovative solutions, making him a valuable team member. His dedication to excellence and problem-solving mindset helped the team achieve critical project milestones efficiently. I highly recommend Sai for any challenging software development role.","Assistant Research Scientist, Arizona State University","asu","Vipin Verma"),A.Zm("During Sai's tenure at Infosys, he displayed exceptional skill in software development and API design. His technical prowess and ability to handle complex challenges, especially in creating high-performance systems, were impressive. Sai played a pivotal role in ensuring the success of multiple projects, and his leadership and teamwork abilities were crucial to achieving project goals on time. His adaptability and forward-thinking approach make him a strong asset in any development team, and I highly recommend him for any future opportunities.","Senior Engineer, Visa (formerly Infosys)","infosys","Sumit Karmakar")],A.af("q<Jp>")))
 s($,"buq","aUc",()=>A.a([A.Zm("Led the development of a time series data-based model using React for the frontend and Node.js for the backend. Deployed a Node.js-based backend to host a machine learning model, ensuring seamless integration\n\nManaged a cross-functional team to deliver a highly efficient solution, driving a 30% improvement in project timeline delivery while maintaining exceptional accuracy in model predictions \ud83e\udde0\ud83d\udcbb.","Team Lead","asu_datalab","ASU Data Lab"),A.Zm("Served as the Flutter and AWS Facilitator, organizing and guiding several hands-on workshops that significantly improved participant proficiency in mobile development and cloud infrastructure.\n\nFacilitated the upskilling of 50+ developers, achieving a 40% increase in their competency in Flutter development and AWS deployment \ud83d\ude80\ud83d\udcf1\u2601\ufe0f.","Flutter and AWS Facilitator","pdc","Pune Developers Committee"),A.Zm("As CTO during my 3rd year of undergraduate studies, I led a team of 10 developers, managing the successful deployment of 15 websites for various clients.\n\nOversaw the end-to-end development cycle, ensuring timely project delivery and high client satisfaction, driving a 20% improvement in client retention rates through seamless, scalable web solutions \ud83c\udf10\ud83d\udda5\ufe0f.","Chief Technology Officer (CTO)","decyf","Decyfertech IT Solutions")],A.af("q<Jp>")))
 s($,"buA","ab6",()=>A.a([A.aPd("Developed a scalable platform for startups to streamline operations such as posting jobs, securing funding, and facilitating investments, driving efficiency and collaboration within the startup ecosystem.","Smart India Hackathon 2019","sih","Finalist"),A.aPd("Created an advanced weather control and monitoring system for greenhouses, integrated with AI-based crop health monitoring to optimize agricultural processes and enhance crop management.","SPPU Hackathon 2018","SPPU","2nd Place"),A.aPd("Developed a mobile application with a data scraping script, capable of tracking user actions on Android devices to analyze behavior and enhance user experience.","Scripting Challenge Pune 2017","scripting_challenge","1st Place")],A.af("q<PE>")))
