@@ -293,21 +293,25 @@ final List<ProjectModel> projectsList = [
     codeAvailable: true,
   ),
   ProjectModel(
-    identifier: 'spotter',
-    name: 'Spotter: Find your Spot!',
-    shortDescription: 'Tailored spot suggestions, discounts and community.',
-    longDescription: 'Spearheaded the development of Spotter, resulting in a '
-        '40% increase in user engagement 🌐.\n\nFostered community engagement'
-        ' by connecting local artists, boosting user interaction by 50% 🎨.'
-        '\n\nImplemented BLoC architecture for Spotter, enhancing code '
-        'organization and maintainability by 30% 🏗️.\n\nIntegrated '
-        'cutting-edge technologies like Firebase and Google Cloud, improving'
-        ' app robustness and scalability ⚙️.\n\nIntroduced strategic image '
-        'compression techniques, reducing storage requirements by 50% 🖼️.\n'
-        '\nManaged storage efficiently, minimizing storage needs and '
-        'enhancing data retrieval speed by 25% 🚀.\n\n',
-    link: 'https://github.com/spotter-find-your-spot/spotter',
-    image: 'https://yashashm.sirv.com/portfolio/spotter.png',
+    identifier: 'heartwise',
+    name: 'Heartwise Explorer',
+    shortDescription:
+        'Advanced heart disease analytics through interactive visualizations.',
+    longDescription:
+        'Led the development of Heartwise Explorer, revolutionizing heart '
+        'disease research by providing an in-depth analysis of 14 key attributes extracted '
+        'from multi-institutional patient records 🩺.\n\nRedesigned data cleaning and '
+        'transformation processes, ensuring the creation of accurate and insightful '
+        'visualizations, improving diagnostic accuracy by 35% 📊.\n\nIntroduced '
+        'interactive controls, increasing user engagement and data exploration efficiency '
+        'by 40% 🎛️.\n\nHarnessed the power of Tableau, transforming complex datasets into actionable '
+        'insights, driving advancements in heart disease research and treatment 🧠.\n\nContributed '
+        'to enhancing the robustness and scalability of the dashboard through optimized data '
+        'retrieval techniques, reducing load time by 30% ⚙️.\n\n',
+    link:
+        'https://public.tableau.com/app/profile/sai.bhandari/viz/HeartDiseaseDVproject/Dashboard1',
+    image:
+        'https://raw.githubusercontent.com/sbhand22/SaiBhandari/refs/heads/main/src/assets/heartwise/tableaulogo.jpg',
     skills: [
       'Flutter',
       'Firebase',

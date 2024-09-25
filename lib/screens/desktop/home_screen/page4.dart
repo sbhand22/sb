@@ -30,7 +30,7 @@ class _Page4State extends ConsumerState<Page4>
   void initState() {
     projects = [
       projectsList.getByIdentifier('kira'),
-      projectsList.getByIdentifier('spotter'),
+      projectsList.getByIdentifier('heartwise'),
       projectsList.getByIdentifier('chatbuzz'),
     ];
 

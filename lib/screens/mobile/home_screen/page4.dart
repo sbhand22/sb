@@ -22,9 +22,9 @@ class _Page4State extends ConsumerState<Page4>
     with SingleTickerProviderStateMixin {
   final List<ProjectModel> projects = [
     projectsList.getByIdentifier('kira'),
-    projectsList.getByIdentifier('spotter'),
+    projectsList.getByIdentifier('heartwise'),
     projectsList.getByIdentifier('chatbuzz'),
-    projectsList.getByIdentifier('glow-app-bar'),
+    projectsList.getByIdentifier('kira'),
   ];
   late final AnimationController animationController;
 
