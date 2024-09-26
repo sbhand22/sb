@@ -54,7 +54,13 @@ const String react = 'assets/logo/react.svg';
 
 const String html = 'assets/logo/html.svg';
 
+const String next = 'assets/logo/next.svg';
+
+const String angular = 'assets/logo/angular.svg';
+
 // Back-End
+const String springBoot = 'assets/logo/spring.svg';
+
 const String nodeJs = 'assets/logo/node.svg';
 
 const String expressJs = 'assets/logo/express.svg';

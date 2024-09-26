@@ -35,12 +35,15 @@ const List<String> navItems = [
 
 const Map<String, Map<String, String>> skills = {
   'Front-End': {
-    'Flutter': flutter,
-    'React': react,
     'HTML': html,
     'CSS': css,
+    'Flutter': flutter,
+    'React': react,
+    'AngularJs': angular,
+    'Next.js': next,
   },
   'Back-End': {
+    'Spring Boot': springBoot,
     'Node.js': nodeJs,
     'Express.js': expressJs,
     'NGINX': nginx,
