@@ -24,7 +24,7 @@ class _Page4State extends ConsumerState<Page4>
     projectsList.getByIdentifier('kira'),
     projectsList.getByIdentifier('heartwise'),
     projectsList.getByIdentifier('chatbuzz'),
-    projectsList.getByIdentifier('kira'),
+    projectsList.getByIdentifier('codecollab'),
   ];
   late final AnimationController animationController;
 

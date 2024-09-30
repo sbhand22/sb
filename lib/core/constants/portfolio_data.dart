@@ -316,26 +316,39 @@ final List<ProjectModel> projectsList = [
     image:
         'https://raw.githubusercontent.com/sbhand22/SaiBhandari/refs/heads/main/src/assets/heartwise/tableaulogo.jpg',
     skills: [
-      'Flutter',
-      'Firebase',
-      'Maps SDK',
+      'Python',
+      'Tableau',
+      'Data Analysis',
     ],
   ),
-  // ProjectModel(
-  //   identifier: 'asl',
-  //   name: 'ASL Gesture Detection',
-  //   shortDescription:
-  //       'Machine Learning model that converts ASL Gestures to text.',
-  //   longDescription: '',
-  //   link: 'https://github.com/yashas-hm/ASL-Gesture-Sensing',
-  //   image: 'https://yashashm.sirv.com/portfolio/asl.png',
-  //   skills: [
-  //     'Python',
-  //     'TensorFlow',
-  //     'MediaPipe',
-  //   ],
-  //   codeAvailable: true,
-  // ),
+  ProjectModel(
+    identifier: 'codecollab',
+    name: 'Code Collaboration web app',
+    shortDescription:
+        'A real-time collaborative code editor with socket connection.',
+    longDescription:
+        'Developed and deployed a Real-Time Code Collaboration platform, allowing developers '
+        'to collaborate in shared rooms with live coding, file management, and communication features 💻.\n\n'
+        'Built the backend using Node.js and Express, facilitating real-time communication with WebSockets '
+        '(Socket.IO) to ensure synchronized updates, file editing, and user presence notifications ⚙️.\n\n'
+        'The frontend, powered by React and Vite, provides an interactive and responsive interface for coding, '
+        'real-time chat, and collaborative drawing 🎨.\n\nImplemented unique room creation, allowing users to join '
+        'specific sessions with a shared room ID 🚪.\n\nIntegrated code execution functionality and auto-suggestions based on programming languages '
+        'to enhance the collaborative development experience 🔍.\n\nUsed Tailwind CSS to enable customizable themes, font sizes, and font families for a personalized user interface 👩‍💻.\n\n'
+        'Designed a scalable infrastructure that supports multiple users simultaneously, with live notifications for join/leave events and user activity 🛠️.\n\n'
+        'Frontend and backend are hosted and managed separately, ensuring smooth operations and reliable performance across all sessions.',
+    link: 'https://github.com/sbhand22/code-colab-client',
+    image:
+        'https://raw.githubusercontent.com/sbhand22/code-colab-client/refs/heads/main/public/favicon/image.png',
+    skills: [
+      'Node.js',
+      'Express.js',
+      'Socket.IO',
+      'React',
+      'Vite',
+    ],
+    codeAvailable: true,
+  ),
   // ProjectModel(
   //   identifier: 'glow-app-bar',
   //   name: 'Glow App Bar',
