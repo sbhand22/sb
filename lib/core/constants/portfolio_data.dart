@@ -244,6 +244,7 @@ final List<ExperienceModel> experienceList = [
 final List<ProjectModel> projectsList = [
   ProjectModel(
     identifier: 'kira',
+    type: 'Data/SDE',
     name: 'KIRA Skin Cancer Detection',
     shortDescription:
         'Advanced web application leveraging machine learning to detect and classify skin cancer from image.',
@@ -272,6 +273,7 @@ final List<ProjectModel> projectsList = [
   ProjectModel(
     identifier: 'chatbuzz',
     name: 'ChatBuzz',
+    type: 'SDE',
     shortDescription: 'Real-time Firebase-powered chat app built with Flutter.',
     longDescription:
         'Led the development of ChatBuzz, a real-time chat application using Flutter and Firebase, '
@@ -298,6 +300,7 @@ final List<ProjectModel> projectsList = [
   ProjectModel(
     identifier: 'heartwise',
     name: 'Heartwise Explorer',
+    type: 'Data',
     shortDescription:
         'Advanced heart disease analytics through interactive visualizations.',
     longDescription:
@@ -324,6 +327,7 @@ final List<ProjectModel> projectsList = [
   ProjectModel(
     identifier: 'codecollab',
     name: 'Code Collaboration web app',
+    type: 'SDE',
     shortDescription:
         'A real-time collaborative code editor with socket connection.',
     longDescription:

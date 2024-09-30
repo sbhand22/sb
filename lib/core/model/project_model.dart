@@ -3,6 +3,8 @@ import 'package:portfolio/core/model/base_model.dart';
 class ProjectModel extends BaseModel {
   final String name;
 
+  final String type;
+
   final String shortDescription;
 
   final String longDescription;
@@ -24,5 +26,6 @@ class ProjectModel extends BaseModel {
     required this.longDescription,
     required this.shortDescription,
     this.codeAvailable = false,
+    required this.type,
   });
 }

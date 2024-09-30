@@ -39,7 +39,8 @@ class _ProjectItemState extends State<ProjectItem> {
   Widget build(BuildContext context) {
     final height = context.width / 4.6;
     final width = context.width / 5;
-
+    print(
+        "i am in desktop zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz");
     return SlideTransition(
       position: Tween<Offset>(
         begin: const Offset(0, 0.5),
@@ -137,6 +138,29 @@ class _ProjectItemState extends State<ProjectItem> {
                     ),
                   ],
                 ),
+                if (widget.project.type.isNotEmpty)
+                  Positioned(
+                    right: 10.sp,
+                    top: 10.sp,
+                    child: Container(
+                      padding: EdgeInsets.symmetric(
+                        horizontal: 8.sp,
+                        vertical: 4.sp,
+                      ),
+                      decoration: BoxDecoration(
+                        color: Theme.of(context).colorScheme.primary,
+                        borderRadius: BorderRadius.circular(10.sp),
+                      ),
+                      child: Text(
+                        widget.project.type,
+                        style: TextStyle(
+                          fontSize: 12.sp,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white,
+                        ),
+                      ),
+                    ),
+                  ),
                 Align(
                   alignment: Alignment.bottomCenter,
                   child: ClipRRect(
