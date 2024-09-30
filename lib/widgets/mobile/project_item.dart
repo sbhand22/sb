@@ -34,8 +34,6 @@ class _ProjectItemState extends State<ProjectItem> {
   @override
   Widget build(BuildContext context) {
     final height = context.height / 4;
-    print(
-        "i am in mobile zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz");
     return FadeTransition(
       opacity: Tween<double>(begin: 0, end: 1).animate(CurvedAnimation(
         parent: widget.animationController,
