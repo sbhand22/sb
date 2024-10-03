@@ -39,8 +39,6 @@ class _ProjectItemState extends State<ProjectItem> {
   Widget build(BuildContext context) {
     final height = context.width / 4.6;
     final width = context.width / 5;
-    print(
-        "i am in desktop zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz");
     return SlideTransition(
       position: Tween<Offset>(
         begin: const Offset(0, 0.5),

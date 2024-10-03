@@ -83,15 +83,18 @@ Future<(bool, String)> sendMessage({
 }) async {
   try {
     final response = await http.post(
-      Uri.parse(''),
-      body: jsonEncode({'email': email, 'message': text}),
-    );
+        Uri.parse('https://formspree.io/f/mkgwdddl'),
+        body: jsonEncode({'email': email, 'message': text}),
+        headers: {
+          'Content-Type': 'application/json',
+        });
 
     final responseBody = jsonDecode(response.body);
 
     return (
-      responseBody['success'].toString() == 'true',
-      responseBody['message'].toString(),
+      response.statusCode == 200 &&
+          responseBody['success'].toString() == 'true',
+      'Message sent successfully!'
     );
   } catch (err) {
     log(err.toString());
