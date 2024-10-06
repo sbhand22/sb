@@ -271,6 +271,35 @@ final List<ProjectModel> projectsList = [
     ],
   ),
   ProjectModel(
+    identifier: 'codecollab',
+    name: 'Code Collaboration web app',
+    type: 'SDE',
+    shortDescription:
+        'A real-time collaborative code editor with socket connection.',
+    longDescription:
+        'Developed and deployed a Real-Time Code Collaboration platform, allowing developers '
+        'to collaborate in shared rooms with live coding, file management, and communication features 💻.\n\n'
+        'Built the backend using Node.js and Express, facilitating real-time communication with WebSockets '
+        '(Socket.IO) to ensure synchronized updates, file editing, and user presence notifications ⚙️.\n\n'
+        'The frontend, powered by React and Vite, provides an interactive and responsive interface for coding, '
+        'real-time chat, and collaborative drawing 🎨.\n\nImplemented unique room creation, allowing users to join '
+        'specific sessions with a shared room ID 🚪.\n\nIntegrated code execution functionality and auto-suggestions based on programming languages '
+        'to enhance the collaborative development experience 🔍.\n\nUsed Tailwind CSS to enable customizable themes, font sizes, and font families for a personalized user interface 👩‍💻.\n\n'
+        'Designed a scalable infrastructure that supports multiple users simultaneously, with live notifications for join/leave events and user activity 🛠️.\n\n'
+        'Frontend and backend are hosted and managed separately, ensuring smooth operations and reliable performance across all sessions.',
+    link: 'https://github.com/sbhand22/code-colab-client',
+    image:
+        'https://raw.githubusercontent.com/sbhand22/code-colab-client/refs/heads/main/public/favicon/image.png',
+    skills: [
+      'Node.js',
+      'Express.js',
+      'Socket.IO',
+      'React',
+      'Vite',
+    ],
+    codeAvailable: true,
+  ),
+  ProjectModel(
     identifier: 'chatbuzz',
     name: 'ChatBuzz',
     type: 'SDE',
@@ -294,6 +323,31 @@ final List<ProjectModel> projectsList = [
       'Firebase',
       'Python',
       'Cloud',
+    ],
+    codeAvailable: true,
+  ),
+  ProjectModel(
+    identifier: 'passwordless',
+    name: 'Passwordless login with WebAuthn',
+    type: 'SDE/Security',
+    shortDescription:
+        'Full-stack application implementing passwordless authentication using biometrics via WebAuthn.',
+    longDescription:
+        'Developed a passwordless authentication system leveraging the Web Authentication API (WebAuthn) for secure, biometric user authentication 🔐👨‍💻\n\n'
+        'Created a React frontend for a seamless user experience and a Node.js/Express backend to handle authentication flows and API endpoints 🌐⚙️\n\n'
+        'Implemented OTP verification during user registration to enhance security and ensure legitimate user access 📧✅\n\n'
+        'Integrated @simplewebauthn libraries to manage WebAuthn processes, enabling support for platform authenticators like Windows Hello and Touch ID 🖥️🔑\n\n'
+        'This project showcases modern authentication practices, improving user security and convenience by eliminating the need for traditional passwords 🛡️✨.',
+    link: 'https://github.com/sbhand22/passwordless-login-functionality.git',
+    image:
+        'https://raw.githubusercontent.com/sbhand22/passwordless-login-functionality/refs/heads/main/frontend/public/logo.jpg',
+    skills: [
+      'React',
+      'Node.js',
+      'Express',
+      'WebAuthn',
+      'JavaScript',
+      'Biometric Authentication',
     ],
     codeAvailable: true,
   ),
@@ -324,35 +378,7 @@ final List<ProjectModel> projectsList = [
       'Data Analysis',
     ],
   ),
-  ProjectModel(
-    identifier: 'codecollab',
-    name: 'Code Collaboration web app',
-    type: 'SDE',
-    shortDescription:
-        'A real-time collaborative code editor with socket connection.',
-    longDescription:
-        'Developed and deployed a Real-Time Code Collaboration platform, allowing developers '
-        'to collaborate in shared rooms with live coding, file management, and communication features 💻.\n\n'
-        'Built the backend using Node.js and Express, facilitating real-time communication with WebSockets '
-        '(Socket.IO) to ensure synchronized updates, file editing, and user presence notifications ⚙️.\n\n'
-        'The frontend, powered by React and Vite, provides an interactive and responsive interface for coding, '
-        'real-time chat, and collaborative drawing 🎨.\n\nImplemented unique room creation, allowing users to join '
-        'specific sessions with a shared room ID 🚪.\n\nIntegrated code execution functionality and auto-suggestions based on programming languages '
-        'to enhance the collaborative development experience 🔍.\n\nUsed Tailwind CSS to enable customizable themes, font sizes, and font families for a personalized user interface 👩‍💻.\n\n'
-        'Designed a scalable infrastructure that supports multiple users simultaneously, with live notifications for join/leave events and user activity 🛠️.\n\n'
-        'Frontend and backend are hosted and managed separately, ensuring smooth operations and reliable performance across all sessions.',
-    link: 'https://github.com/sbhand22/code-colab-client',
-    image:
-        'https://raw.githubusercontent.com/sbhand22/code-colab-client/refs/heads/main/public/favicon/image.png',
-    skills: [
-      'Node.js',
-      'Express.js',
-      'Socket.IO',
-      'React',
-      'Vite',
-    ],
-    codeAvailable: true,
-  ),
+
   // ProjectModel(
   //   identifier: 'glow-app-bar',
   //   name: 'Glow App Bar',
