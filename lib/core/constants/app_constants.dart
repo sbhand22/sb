@@ -42,7 +42,7 @@ const String instaLink = 'https://www.instagram.com/saibhandari1999';
 const String githubLink = 'https://github.com/sbhand22';
 
 const String resumeLink =
-    'https://drive.google.com/file/d/168PZ2o5cNBLBxjlqw51vuqzHqZXe1Kwq/view?usp=sharing';
+    'https://drive.google.com/file/d/1caYAuM4UCKid3G_ugwJXfmsaLlzO4EB_/view?usp=sharing';
 
 // Skills
 // Front-End
